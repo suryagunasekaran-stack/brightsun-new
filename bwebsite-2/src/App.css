@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:hover {
+  color: #007BFF; /* Bootstrap primary color */
+  transform: scale(1.05);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Navbar background color */
+.navbar {
+  background-color: #00008B;
 }
 
-.App-link {
-  color: #61dafb;
+/* Navbar brand and links color */
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #FF4500;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Navbar links hover and active states */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link.active {
+  color: #FFFFFF; /* White color for contrast on hover/active */
+}
+
+/* Dropdown menu background color */
+.navbar .dropdown-menu {
+  background-color: #00008B;
+}
+
+/* Dropdown menu links color */
+.navbar .dropdown-item {
+  color: #FF4500;
+}
+
+/* Dropdown menu links hover and active states */
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus,
+.navbar .dropdown-item.active {
+  color: #FFFFFF; /* White color for contrast on hover/active */
+  background-color: #FF4500; /* Reddish-orange background for contrast */
+}
+
+/* Container holding the hero image */
+.hero-container {
+  position: relative;
+  overflow: hidden; /* Hide the overflow to ensure the pseudo-element doesn't extend outside */
+}
+
+/* Hero image */
+.hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Diagonal cut using ::before pseudo-element */
+.hero-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top right, white 50%, transparent 50%);
+  transform: translateY(-50%) skewY(-8deg); /* Adjust the skew value to change the angle of the cut */
+  z-index: 1; /* Ensure the pseudo-element is above the image */
 }
