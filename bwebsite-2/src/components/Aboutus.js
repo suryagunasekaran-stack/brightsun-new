@@ -1,10 +1,10 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
-// import aboutUsImage from '../images/AdobeStock_473182722.jpeg'; // Replace with the path to your about us image
+import aboutUsImage from '../images/AdobeStock_473182722.jpeg'; // Replace with the path to your about us image
 
 function AboutUs() {
     return (
-        <Parallax  strength={500}>
+        <Parallax bgImage={aboutUsImage}  strength={500}>
             <div style={{ height: '100vh' }}>
                 <div className="container h-100 d-flex align-items-center">
                     <div className="row">
