@@ -1,0 +1,44 @@
+.textcontainer{
+
+    font-family: 'gascogne-serial-medium-regular', sans-serif;
+    font-weight: normal;
+
+}
+
+.container {
+    position: relative;
+    bottom: 10%;
+}
+
+@media (min-width: 600px) {
+    /* Tablet styles */
+}
+
+@media (min-width: 900px) {
+    /* Small Laptops */
+}
+
+@media (min-width: 1200px) {
+    /* Desktops */
+    .textcontainer{
+
+        font-family: 'gascogne-serial-medium-regular', sans-serif;
+        position: relative;
+        right: 22vw;
+        bottom: 12vh;
+        font-size: 5em;
+        color: #EA3431;
+    
+    }
+    .lead {
+        font-family: 'gascogne-serial-medium-regular', sans-serif;
+        font-size: 0.3em;
+    }
+
+    .btn {
+        font-size: 0.5em;
+        color: white;
+        background-color: #EA3431;
+
+    }
+}

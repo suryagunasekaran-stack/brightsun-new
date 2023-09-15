@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './css/App.css';
 import NavigationBar from './components/Navbar';
 import LandingPage from './components/Landingpage';
 import AboutUs from './components/Aboutus';

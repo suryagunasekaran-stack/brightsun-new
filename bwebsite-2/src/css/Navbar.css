@@ -1,0 +1,24 @@
+.allnav {
+    color: #EA3431;
+}
+
+@media (min-width: 600px) {
+    /* Tablet styles */
+}
+
+@media (min-width: 900px) {
+    /* Small Laptops */
+}
+
+@media (min-width: 1200px) {
+    /* Desktops */
+    #navmain {
+        font-size: 2em;
+    }
+
+    .sunlogo {
+        width:10vw;
+        height: 5vh;
+    }
+
+}

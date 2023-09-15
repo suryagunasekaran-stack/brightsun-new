@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { Dropdown, DropdownButton } from 'react-bootstrap';
 import sun from '../images/sun.svg'
 import { useState, useEffect } from 'react';
+import "../css/Navbar.css"
 
 function NavigationBar() {
     const { t, i18n } = useTranslation();
@@ -33,21 +34,22 @@ function NavigationBar() {
 
 
     return (
-        <Navbar bg='dark' variant='dark'   expand="lg">
-            <Navbar.Brand href="#home">  <img src={sun} alt="Brand Logo" width="150" height="50" /> </Navbar.Brand>
+        <Navbar className='p-3' id='navmain' expand="lg">
+            <Navbar.Brand href="#home">  <img className='sunlogo' src={sun} alt="Brand Logo"  /> </Navbar.Brand>
             
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle aria-controls="basic-navbar-nav"  />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                 
-                    <Nav.Link href="#aboutus">About Us</Nav.Link>
-                    <Nav.Link href="#services">Services</Nav.Link>
-                    <Nav.Link href="#contactus">Contact Us</Nav.Link>
-                    <Button variant="outline-success"  >Brouchere</Button>
+                    <Nav.Link href="#aboutus" style={{paddingLeft:"100px", color:"#EA3431"}}  >About Us</Nav.Link>
+                    <Nav.Link href="#services"  style={{color:"#EA3431"}}>Services</Nav.Link>
+                    <Nav.Link href="#contactus" style={{paddingRight:"100px",  color:"#EA3431"}}  >Contact Us</Nav.Link>
                 </Nav>
+                
             </Navbar.Collapse>
             <div>
-            <DropdownButton id="dropdown-basic-button" title={languages[langIndex]} onClick={() => setIsCycling(false)} >
+            <Button  variant="danger" >Brouchere</Button>
+            <DropdownButton className='ml-auto' variant='danger' id="dropdown-basic-button" title={languages[langIndex]} onClick={() => setIsCycling(false)} >
                 <Dropdown.Item onClick={() => {changeLanguage('en'); setLangIndex(0);}}>EN</Dropdown.Item>
                 <Dropdown.Item onClick={() => {changeLanguage('ja'); setLangIndex(1);}}>JA</Dropdown.Item>
                 <Dropdown.Item onClick={() => {changeLanguage('ta'); setLangIndex(2);}}>TA</Dropdown.Item>

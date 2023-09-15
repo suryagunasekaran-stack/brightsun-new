@@ -4,7 +4,7 @@ import aboutUsImage from '../images/AdobeStock_473182722.jpeg'; // Replace with 
 
 function AboutUs() {
     return (
-        <Parallax bgImage={aboutUsImage}  strength={500}>
+        <Parallax   strength={500}>
             <div style={{ height: '100vh' }}>
                 <div className="container h-100 d-flex align-items-center">
                     <div className="row">
