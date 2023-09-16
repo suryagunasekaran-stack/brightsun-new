@@ -1,20 +1,20 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
-import "../css/Aboutus.css";
+import "../css/Trust.css";
 import { useTranslation } from 'react-i18next';
 
 
-function AboutUs() {
+function Trust() {
     const { t } = useTranslation();
     return (
-        <Parallax  strength={500} className="parallax-bg-image">
-            <div className='aboutlength'>
+        <Parallax  strength={500} className="parallax-bg-image3">
+            <div className='trustlength'>
                 <div className="container h-100 d-flex align-items-center">
                     <div className="row">
                         <div className="col-md-8">
-                            <h1>{t('ab')}</h1>
+                            <h1>{t('trust')}</h1>
                             <p>
-                            {t('abd')}
+                            {t('t')}
                             </p>
                         </div>
                         
@@ -25,4 +25,4 @@ function AboutUs() {
     );
 }
 
-export default AboutUs;
+export default Trust;

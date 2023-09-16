@@ -9,4 +9,25 @@ a {
   transition: color 0.3s, transform 0.3s;
 }
 
+/* .NavigationBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+ 
+} */
+
+.snap-container {
+  overflow-y: scroll;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+
+.LandingPage, .AboutUs {
+  height: 100vh; 
+  scroll-snap-align: start;
+}
+
 

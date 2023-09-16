@@ -1,3 +1,13 @@
+.p-3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the navbar is above other content */
+    /* Additional styles like background, height, etc. */
+    background: white;
+}
+
 .allnav {
     color: #EA3431;
 }

@@ -6,15 +6,20 @@ import AboutUs from './components/Aboutus';
 import React from 'react';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n';
+import VisionMission from './components/VisionMission';
+import Trust from './components/Trust';
 
 
 function App() {
     return (
         <div className="App">
             <NavigationBar />
-            <LandingPage />
-            <AboutUs />
-            {/* Other components and content */}
+            <div className="snap-container">
+                <LandingPage />
+                <AboutUs />
+                <VisionMission/>
+                <Trust/>
+            </div>
         </div>
     );
 }

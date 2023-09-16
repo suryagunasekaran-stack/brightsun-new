@@ -1,0 +1,46 @@
+.parallax-bg-image3  {
+    background-color:#FF6B6B;
+ }
+
+ .trustlength {
+    height: 70vh;
+ }
+
+.col-md-6 {
+    padding: 3vh;
+    font-size: 1em;
+    color: #FFFFE0;
+    flex-direction: column;
+    align-items: center;     /* Horizontal centering for block elements */
+    text-align: center;      /* For inline elements like text */
+
+}
+
+
+@media (min-width: 600px) {
+    /* Tablet styles */
+    .col-md-6 {
+        width: 90vw;
+        font-size: 1.3em;
+        color: #FFFFE0;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;     /* Horizontal centering for block elements */
+        height: 100%;            /* Take full height of its parent */
+        text-align: center;      /* For inline elements like text */
+        left: 3vw;
+
+    }
+   
+}
+
+@media (min-width: 900px) {
+    /* Small Laptops */
+
+}
+
+@media (min-width: 1200px) {
+    /* Desktops */
+   
+}
