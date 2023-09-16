@@ -18,7 +18,7 @@ function LandingPage() {
                             {t('Welcome2')}
                             </p>
                             <p>
-                                <a href="#" className="btn btn-lg">Our Services</a>
+                                <a href="#"> <button className='servicebtn'>{t('Our Services')} </button></a>
                             </p>
                         </div>
                     </div>

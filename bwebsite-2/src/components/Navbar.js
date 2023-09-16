@@ -41,14 +41,16 @@ function NavigationBar() {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                 
-                    <Nav.Link href="#aboutus" style={{paddingLeft:"100px", color:"#EA3431"}}  >About Us</Nav.Link>
-                    <Nav.Link href="#services"  style={{color:"#EA3431"}}>Services</Nav.Link>
-                    <Nav.Link href="#contactus" style={{paddingRight:"100px",  color:"#EA3431"}}  >Contact Us</Nav.Link>
+                    <Nav.Link href="#aboutus" style={{paddingLeft:"100px", color:"#EA3431"}}  >{t('ab')}</Nav.Link>
+                    <Nav.Link href="#services"  style={{color:"#EA3431"}}>{t('s')}</Nav.Link>
+                    <Nav.Link href="#contactus" style={{paddingRight:"100px",  color:"#EA3431"}}  >{t('cu')}</Nav.Link>
                 </Nav>
                 
             </Navbar.Collapse>
-            <div>
-            <Button  variant="danger" >Brouchere</Button>
+            <div className='clickables'>
+            <Button id='brou'  variant="danger" style={{margin:"2px"}} >{t('b')}</Button>
+            <button className='c' id="bbtn">📄</button> 
+
             <DropdownButton className='ml-auto' variant='danger' id="dropdown-basic-button" title={languages[langIndex]} onClick={() => setIsCycling(false)} >
                 <Dropdown.Item onClick={() => {changeLanguage('en'); setLangIndex(0);}}>EN</Dropdown.Item>
                 <Dropdown.Item onClick={() => {changeLanguage('ja'); setLangIndex(1);}}>JA</Dropdown.Item>
@@ -56,6 +58,14 @@ function NavigationBar() {
                 <Dropdown.Item onClick={() => {changeLanguage('ms'); setLangIndex(3);}}>MS</Dropdown.Item>
                 <Dropdown.Item onClick={() => {changeLanguage('zh'); setLangIndex(4);}}>ZH</Dropdown.Item>
             </DropdownButton>
+
+            <DropdownButton className='c' id='extra' title = "🌐"  class='dropdown-toggle'>
+            <Dropdown.Item onClick={() => {changeLanguage('en'); setLangIndex(0);}}>EN</Dropdown.Item>
+                <Dropdown.Item onClick={() => {changeLanguage('ja'); setLangIndex(1);}}>JA</Dropdown.Item>
+                <Dropdown.Item onClick={() => {changeLanguage('ta'); setLangIndex(2);}}>TA</Dropdown.Item>
+                <Dropdown.Item onClick={() => {changeLanguage('ms'); setLangIndex(3);}}>MS</Dropdown.Item>
+                <Dropdown.Item onClick={() => {changeLanguage('zh'); setLangIndex(4);}}>ZH</Dropdown.Item>
+            </DropdownButton> 
 
         </div>
         </Navbar>

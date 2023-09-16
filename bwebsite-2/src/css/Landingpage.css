@@ -1,13 +1,27 @@
+
 .textcontainer{
 
     font-family: 'gascogne-serial-medium-regular', sans-serif;
     font-weight: normal;
+    font-size: 2em;
+    position: relative;
+    bottom: 55%;
+    color: #EA3431;
 
 }
 
-.container {
-    position: relative;
-    bottom: 10%;
+.servicebtn {
+
+    font-size: 0.5em;
+    color: white;
+    border-radius: 5px;
+    background-color: #EA3431;
+    box-shadow: none;
+    border: none;
+}
+
+.lang-ta {
+    font-size: 0.9em; /* Adjust as needed */
 }
 
 @media (min-width: 600px) {
@@ -16,6 +30,7 @@
 
 @media (min-width: 900px) {
     /* Small Laptops */
+   
 }
 
 @media (min-width: 1200px) {
