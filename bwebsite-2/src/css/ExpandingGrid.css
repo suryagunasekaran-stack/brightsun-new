@@ -1,0 +1,30 @@
+/* ExpandingGrid.css */
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .grid-item {
+    width: 33.33%;
+    height: 200px;
+    background: #e0e0e0;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .grid-item.expanded {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background: white;
+  }
+  
+  

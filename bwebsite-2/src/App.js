@@ -8,6 +8,7 @@ import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n';
 import VisionMission from './components/VisionMission';
 import Trust from './components/Trust';
+import ExpandingGrid from './components/ExpandingGrid';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                 <AboutUs />
                 <VisionMission/>
                 <Trust/>
+                <ExpandingGrid/>
             </div>
         </div>
     );
