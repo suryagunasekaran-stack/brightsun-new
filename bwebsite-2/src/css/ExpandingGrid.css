@@ -3,12 +3,13 @@
 .grid {
     display: flex;
     flex-wrap: wrap;
+    max-height: 100vh;
+    overflow-y: auto;
   }
   
   .grid-item {
-    width: 33.33%;
-    height: 200px;
-    background: #e0e0e0;
+    width: 70%;
+    height: 100%;
     margin: 10px;
     display: flex;
     align-items: center;
@@ -17,14 +18,122 @@
     transition: background 0.3s;
   }
   
+  .grid-item-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;    /* Center children horizontally */
+    width: calc(100% - 20px);
+    margin: 10px;
+    height: 37vh;
+  }
+  
   .grid-item.expanded {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100vw;
     height: 100vh;
-    z-index: 10;
-    background: white;
+    z-index: 100;
+    margin: 0;
   }
+
+  .item-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center */
+    justify-content: center; /* Vertically center */
+    text-align: center; /* Center the text within each element */
+    /* ... other styles ... */
+}
   
+  .expanded-content {
+    position: fixed;
+    top: 45%;
+    left: 10%;
+    width: 80%;
+    height: 50%;
+    background-color: black;
+    opacity: 30%;
+    padding: 20px;
+    color: white;
+    z-index: 1000;
+    opacity: 0;  /* Initial opacity set to 0 for fade-in effect */
+    animation: fadeIn 1s forwards;  /* Animation to fade in the content */
+    overflow-y: auto;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 0.8;
+    }
+}
+
+.expanded-content h2,
+.expanded-content p {
+    opacity: 0; /* Start with text hidden */
+    animation: textFadeIn 1.5s forwards; /* Apply the animation */
+    animation-delay: 0.5s; /* Delay the start of the animation */
+}
+
+@keyframes textFadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 375px) {
+  /* Tablet styles */
+  .grid-item-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;    /* Center children horizontally */
+    width: calc(100% - 20px);
+    margin: 10px;
+    height: 45vh;
+  }
+}
+
+@media (min-width: 425px) {
+  /* Tablet styles */
   
+ 
+}
+
+@media (min-width: 600px) {
+  /* Tablet styles */
+  .grid-item-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;    /* Center children horizontally */
+    width: calc(100% - 20px);
+    margin: 10px;
+    height: 85vh;
+  }
+ 
+}
+
+@media (min-width: 900px) {
+  /* Small Laptops */
+
+
+  .grid-item-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;    /* Center children horizontally */
+    width: calc(100% - 20px);
+    margin: 10px;
+    height: 80vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Desktops */
+  .grid-item-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;    /* Center children horizontally */
+    width: calc(100% - 20px);
+    margin: 10px;
+    height: 100vh;
+  }
+}

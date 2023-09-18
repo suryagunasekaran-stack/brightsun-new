@@ -1,5 +1,4 @@
 import React from 'react';
-import { Fade } from 'react-reveal';
 import heroImage from '../images/reworked.png'; // Replace with the path to your hero image
 import { useTranslation } from 'react-i18next';
 import "../css/Landingpage.css"
@@ -18,7 +17,7 @@ function LandingPage() {
                             {t('Welcome2')}
                             </p>
                             <p>
-                                <a href="#"> <button className='servicebtn'>{t('Our Services')} </button></a>
+                                <a href="#services"> <button className='servicebtn'>{t('Our Services')} </button></a>
                             </p>
                         </div>
                     </div>

@@ -19,6 +19,9 @@ const resources = {
             "m": "Deliver Quality Service to our Customers. Provide Optimum Returns to our Shareholders. Create a rewarding and conducive work environment for our employees. Maintain our reputation as a responsible Corporate Citizen ",
             "trust": "TRUST US FOR QUALITY, SAFETY & ON TIME DELIVERY",
             "t": "We provide round the clock able services catering to various field’s like Mechanical, Electrical, Instrumentation & Automation, Machining, Engine Components Reconditioning, Hydraulic, Pneumatic, Steel Work, Piping and Insulation work activities pertaining to various categories of Ocean Going Vessel’s like Bulk, Tanker, Container, Offshore Platform, Tug, PSV, AHTS, FPSO, FSO, FDPSO, Naval Fleet & Frigate, Submarine, Cruise, Dredger etc. Our strong hold on Business front is our dedicated Work Force of over 450 Skilled Technicians, Professional Engineers, Production Managers and Specialists covering an wide array of Work related to Machinery, Electrical, Instrumentation & Control, Steel & Outfitting, Piping & Insulation, Erection & Commissioning of Equipments, Hydraulics & Pneumatics, In-situ Machining & Laser Alignment, Engine Components Repair, Reconditioning, Hard Chrome Plating, Testing, Inspection etc. We also assist in the provision of NDT Services, LSA & FFA Service Arrangement, CNC Machining arrangement, Scaffolding arrangement, Provision of Safety Assessor attendance for Anchorage Hot work Permit & all other work scope that needs Third Party Authentication.",
+            "eg": "Engine Overhauling",
+            "egd": "Expert engine overhauling for peak performance.",
+            "egde": ["Technical Expertise to handle both ME & MC Type MAN B&W, WARTSILA, MITSUBISHI, HYUNDAI, DOOSAN, STX, MTU, YANMAR, CUMMINS, DAIHATSU, CATERPILLAR Etc, Overhauling of HPS, FIVA, Booster Pump, ELFI Valves,", "Valve Actuator Timing, Accumulators, Cylinder Lubricators, HCU Block, Starting Air Distributor, Tacho System, AICU & ACU Inspection and Function Test Assistance to Overhaul & Calibrate Fuel components, Turbo", "Charger, Governor Etc, Team of Service Engineers and Fitters to carry out complete Overhauling at Port Anchorage & Voyage, Supply of Service Engineers and Fitters to assist Vessel Crew/Maker for related works"],
             // ... other English translations
         }
     },
@@ -39,6 +42,8 @@ const resources = {
             "m": " お客様に質の高いサービスを提供する。株主に最適なリターンを提供する。従業員のための報酬的で適切な労働環境を作成する。責任ある企業市民としての評判を維持する。 ",
             "trust": "私たちを信頼してください - 品質、安全、そして時間通りの配送のために",
             "t": "私たちは、機械、電気、計測・自動化、加工、エンジン部品の再調整、油圧、空気圧、鋼鉄作業、配管および絶縁作業活動に関連するさまざまな分野、例えばバルク、タンカー、コンテナ、沖合いプラットフォーム、タグ、PSV、AHTS、FPSO、FSO、FDPSO、海軍艦隊＆フリゲート、潜水艦、クルーズ、浚渫船などのさまざまなカテゴリーの洋上船舶に関連するサービスを24時間提供しています。ビジネスフロントでの私たちの強力なサポートは、機械、電気、計測・制御、鋼鉄＆装備、配管＆絶縁、機器の設置＆委託、油圧＆空気圧、現地加工＆レーザー整列、エンジン部品の修理、再調整、硬クロムめっき、テスト、検査などの作業に関連する450人以上の熟練技術者、専門エンジニア、生産マネージャー、および専門家からなる専用の労働力です。私たちも、NDTサービス、LSA＆FFAサービスの手配、CNC加工の手配、足場の手配、アンカーホットワーク許可の安全評価者の出席の供給、および第三者認証が必要なすべての他の作業範囲の提供をサポートします。",
+            "eg": "",
+            "egd": "",
             // ... other Japanese translations
         }
     },
@@ -59,6 +64,8 @@ const resources = {
             "m": "எங்கள் வாடிக்கையாளர்களுக்கு தரமான சேவையை வழங்கு. எங்கள் பங்கேற்பாளர்களுக்கு சிறந்த திருப்தியை வழங்கு. எங்கள் ஊழியர்களுக்கு பரிதாப மற்றும் ஏற்றுக்கொள்ள உகந்த பணியிடத்தை உருவாக்கு.ஒரு பொறுப்புக்கூடிய கார்ப்பரேட் போலியாக எங்கள் பெயர் பாதுகாக்க. ",
             "trust": "தரத்தில், பாதுகாப்பில் & கால வாய்ப்பில் எங்களை நம்புங்கள் ",
             "t": "நாம் முழு காலத்திலும் திறனாளி சேவைகளை வழங்குகின்றோம், இது பொதுவாக மெக்கானிக்கல், எலெக்ட்ரிக்கல், உபகரணம் & ஆட்டோமேஷன், மெஷினிங், எஞ்சின் பாகங்கள் மறுநிலைப்பு, ஹைட்ரோலிக், பினியுமாடிக், உலோக வேலை, பைபிங் மற்றும் இன்சுலேஷன் சேவைகள் ஆகியவற்றை உள்ளடக்கியது. இது கடல் போக்குவரத்து வாகனங்கள் போன்ற பல வகைகளுக்கு ஏற்றது, பல்க், டாங்கர், காண்டைனர், ஆஃப்ஷோர் பிளாட்பாரத்து, டக், PSV, AHTS, FPSO, FSO, FDPSO, கடற்படை படை & பிரிகேட், உபகடல், குரூஸ், ட்ரெட்ஜர் ஆகியவற்றுக்கு. நமது வணிக முனையில் உள்ள பலமான கைவிரியம் எங்களுக்கு 450 குழுமத்தில் அதிகமான திறனாளி தொழிலாளர்கள், விருப்பமுள்ள பொறியாளர்கள், உற்பத்தி மேலாளர்கள் மற்றும் சிறப்புத்தோழர்கள் ஆகியோர். இது மெஷினரி, எலெக்ட்ரிக்கல், உபகரணம் & கட்டுப்பாடு, ஸ்டீல் & ஔட்டிபிட்டிங், பைபிங் & இன்சுலேஷன், உத்தேய சேவைகள் & கமிஷனிங் சேவைகள், ஹைட்ராலிக்ஸ் & பினியுமாடிக்ஸ், இன்-ஸிடு மெஷினிங் & லேசர் அலைன்மெண்ட், எஞ்சின் பாகங்கள் சேவை, மறுநிலைப்பு, ஹார்ட் குரோம் பிளேட்டிங், டெஸ்டிங், பரிசோதனை ஆகியவற்றைக் கொண்டுவருகின்றது. நாம் NDT சேவைகள், LSA & FFA சேவை அமைப்பு, CNC மெஷினிங் அமைப்பு, ஸ்காஃபோல்டிங் அமைப்பு, அங்கோரேஜ் ஹாட் வெர்க் அனுமதி & அனைத்து பிற வேலை காரணங்களுக்கு திருத்த பார்டி அத்தெளித்தல் தேவைப்படும் போது பாதுகாப்பு முதலாளியின் கலந்துரையாடல் வழங்குவதில் உதவுகின்றோம்.",
+            "eg": "",
+            "egd": "",
             // ... other Tamil translations
         }
     },
@@ -79,7 +86,8 @@ const resources = {
             "m": "Menyampaikan Perkhidmatan Berkualiti kepada Pelanggan kami. Menyediakan Pulangan Optimum kepada Pemegang Saham kami.Mencipta persekitaran kerja yang memberi ganjaran dan kondusif bagi pekerja kami. Menjaga reputasi kami sebagai Warganegara Korporat yang bertanggungjawab.",
             "trust": "PERCAYAI KAMI UNTUK KUALITI, KESELAMATAN & PENGHANTARAN TEPAT MASA ",
             "t": "Kami menyediakan perkhidmatan yang cekap sepanjang masa yang menepati pelbagai bidang seperti Mekanikal, Elektrik, Instrumentasi & Automasi, Pemesinan, Pembaikan Komponen Enjin, Hidraulik, Pneumatik, Kerja Besi, Pemipaan dan aktiviti Kerja Insulasi yang berkaitan dengan pelbagai kategori Kapal Lautan seperti Bulk, Tanker, Kontena, Platform Laut, Tug, PSV, AHTS, FPSO, FSO, FDPSO, Armada Tentera Laut & Frigate, Kapal Selam, Pelayaran, Dredger dan lain-lain. Kekuatan utama kami dalam aspek perniagaan adalah Tenaga Kerja kami yang berdedikasi yang terdiri daripada lebih 450 Teknisi Mahir, Jurutera Profesional, Pengurus Produksi dan Pakar yang meliputi pelbagai aspek Kerja berkaitan dengan Mesin, Elektrik, Instrumentasi & Kawalan, Baja & Peralatan, Pemipaan & Insulasi, Pemasangan & Pengkomisen Peralatan, Hidraulik & Pneumatik, Pemesinan In-situ & Penjajaran Laser, Pembaikan Komponen Enjin, Pembaikan semula, Pelapisan Krom Keras, Ujian, Pemeriksaan dan lain-lain. Kami juga membantu dalam penyediaan Perkhidmatan NDT, Penyusunan Perkhidmatan LSA & FFA, Penyusunan Pemesinan CNC, Penyusunan Perancah, Penyediaan Penilai Keselamatan untuk Kebenaran Kerja Panas di Labuh & semua skop kerja lain yang memerlukan Pengesahan Pihak Ketiga.",
-            
+            "eg": "",
+            "egd": "",
             // ... other Malay translations
         }
     },
@@ -100,6 +108,8 @@ const resources = {
             "m": "为我们的客户提供高质量的服务。 为我们的股东提供最佳回报。为我们的员工创造一个有益且有利的工作环境。维护我们作为一个负责任的企业公民的声誉。 ",
             "trust": "信赖我们的质量、安全和准时交付 ",
             "t": "我们提供全天候的能力服务，满足各种领域的需求，如机械、电气、仪表和自动化、机加工、发动机部件再制、液压、气动、钢铁工作、管道和绝缘工作活动，涉及各种类别的远洋船只，如散货、油船、集装箱、离岸平台、拖船、PSV、AHTS、FPSO、FSO、FDPSO、海军舰队和护卫舰、潜艇、游轮、挖泥船等。我们在业务方面的坚强后盾是我们的专用工作队伍，包括超过450名熟练技术员、专业工程师、生产经理和专家，涵盖了与机械、电气、仪器和控制、钢铁和设备、管道和绝缘、设备的安装和调试、液压和气动、现场机加工和激光对准、发动机部件修理、再制、硬铬镀、测试、检查等相关的广泛工作。我们还协助提供NDT服务、LSA和FFA服务安排、CNC机加工安排、脚手架安排、为锚地热工作许可提供安全评估员出席和需要第三方认证的所有其他工作范围。",
+            "eg": "",
+            "egd": "",
             // ... other Chinese translations
         }
     }
