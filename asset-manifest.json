@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/suryagunasekaran-stack.github.io/static/css/main.fa488043.css",
-    "main.js": "/suryagunasekaran-stack.github.io/static/js/main.c5041e2b.js",
-    "static/js/787.5c4c2ce9.chunk.js": "/suryagunasekaran-stack.github.io/static/js/787.5c4c2ce9.chunk.js",
-    "static/media/reworked.png": "/suryagunasekaran-stack.github.io/static/media/reworked.48beed7d20560e0d0207.png",
-    "static/media/background.jpeg": "/suryagunasekaran-stack.github.io/static/media/background.3881e7b6bead4032c3de.jpeg",
-    "static/media/placeholder.jpeg": "/suryagunasekaran-stack.github.io/static/media/placeholder.48f1663cc2db1326d932.jpeg",
-    "static/media/sun.svg": "/suryagunasekaran-stack.github.io/static/media/sun.bd6228d9fee25b10fd4bfe15a7ee0bff.svg",
-    "index.html": "/suryagunasekaran-stack.github.io/index.html",
-    "main.fa488043.css.map": "/suryagunasekaran-stack.github.io/static/css/main.fa488043.css.map",
-    "main.c5041e2b.js.map": "/suryagunasekaran-stack.github.io/static/js/main.c5041e2b.js.map",
-    "787.5c4c2ce9.chunk.js.map": "/suryagunasekaran-stack.github.io/static/js/787.5c4c2ce9.chunk.js.map"
+    "main.css": "/brightsun2/static/css/main.fa488043.css",
+    "main.js": "/brightsun2/static/js/main.917fec32.js",
+    "static/js/787.5c4c2ce9.chunk.js": "/brightsun2/static/js/787.5c4c2ce9.chunk.js",
+    "static/media/reworked.png": "/brightsun2/static/media/reworked.48beed7d20560e0d0207.png",
+    "static/media/background.jpeg": "/brightsun2/static/media/background.3881e7b6bead4032c3de.jpeg",
+    "static/media/placeholder.jpeg": "/brightsun2/static/media/placeholder.48f1663cc2db1326d932.jpeg",
+    "static/media/sun.svg": "/brightsun2/static/media/sun.bd6228d9fee25b10fd4bfe15a7ee0bff.svg",
+    "index.html": "/brightsun2/index.html",
+    "main.fa488043.css.map": "/brightsun2/static/css/main.fa488043.css.map",
+    "main.917fec32.js.map": "/brightsun2/static/js/main.917fec32.js.map",
+    "787.5c4c2ce9.chunk.js.map": "/brightsun2/static/js/787.5c4c2ce9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa488043.css",
-    "static/js/main.c5041e2b.js"
+    "static/js/main.917fec32.js"
   ]
 }
