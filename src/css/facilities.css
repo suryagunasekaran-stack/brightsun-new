@@ -1,28 +1,10 @@
-  
-  #progress {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    transform: rotate(-90deg);
+  .facbackground {
+    background-color: bisque;
+    text-align: center;
   }
-  
-  circle {
-    stroke-dashoffset: 0;
-    stroke-width: 15%;
-    fill: none;
-  }
-  
-  .bg {
-    stroke: var(--accent);
-    opacity: 0.3;
-  }
-  
-  #progress .indicator {
-    stroke: var(--accent);
-  }
-  
+
   ul {
-    position: relative;
+
     display: flex;
     list-style: none;
     height: 300px;
@@ -30,7 +12,8 @@
     padding: 20px 0;
     flex: 0 0 600px;
     margin: 0 auto;
-    background-color:bisque;
+    justify-content: center;
+    scroll-behavior: smooth;
   }
   
   ::-webkit-scrollbar {

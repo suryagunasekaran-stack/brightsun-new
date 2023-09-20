@@ -10,6 +10,7 @@ import VisionMission from './components/VisionMission';
 import Trust from './components/Trust';
 import ExpandingGrid from './components/ExpandingGrid';
 import Facilities from './components/Facilities';
+import Worldwide from './components/Worldwide';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
                 <Trust/>
                 <ExpandingGrid/>
                 <Facilities/>
+                <Worldwide/>
             </div>
         </div>
     );
