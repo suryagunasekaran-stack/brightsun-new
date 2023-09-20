@@ -9,6 +9,7 @@ import i18n from './i18n';
 import VisionMission from './components/VisionMission';
 import Trust from './components/Trust';
 import ExpandingGrid from './components/ExpandingGrid';
+import Facilities from './components/Facilities';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
                 <VisionMission/>
                 <Trust/>
                 <ExpandingGrid/>
+                <Facilities/>
             </div>
         </div>
     );
