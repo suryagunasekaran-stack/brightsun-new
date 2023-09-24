@@ -4,7 +4,8 @@
     display: flex;
     flex-wrap: wrap;
     max-height: 100vh;
-    overflow-y: auto;
+    flex: 1;
+    overflow: hidden;
   }
   
   .grid-item {

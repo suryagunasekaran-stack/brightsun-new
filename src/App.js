@@ -9,6 +9,9 @@ import i18n from './i18n';
 import VisionMission from './components/VisionMission';
 import Trust from './components/Trust';
 import ExpandingGrid from './components/ExpandingGrid';
+import Facilities from './components/Facilities';
+import Worldwide from './components/Worldwide';
+import WhatsAppWidget from './components/Whatsapp';
 
 
 function App() {
@@ -21,6 +24,9 @@ function App() {
                 <VisionMission/>
                 <Trust/>
                 <ExpandingGrid/>
+                <Facilities/>
+                <Worldwide/>
+                <WhatsAppWidget phoneNumber="+6592372289" message="Hi, I'm interested in your services" />
             </div>
         </div>
     );
