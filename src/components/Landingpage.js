@@ -7,15 +7,16 @@ function LandingPage() {
     const { t } = useTranslation();
     return (
         
-        <div className="d-flex align-items-center vh-100" style={{ backgroundImage: `url(${heroImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className="d-flex align-items-center vh-100" id='backg' style={{ backgroundImage: `url(${heroImage})`}}>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-9">
+                    <div className="col-md-7">
                         <div className="textcontainer">
-                           {t('Welcome')}
-                            <p className="lead">
-                            {t('Welcome2')}
-                            </p>
+                           <h1 id='welcome'>{t('Welcome')}</h1>
+                           <p id='welcome2'>
+                           {t('Welcome2')}
+                           </p>
+
                             <p>
                                 <a href="#services"> <button className='servicebtn'>{t('Our Services')} </button></a>
                             </p>

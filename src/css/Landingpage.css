@@ -20,10 +20,10 @@
     border: none;
 }
 
-.lang-ta {
-    font-size: 0.9em; /* Adjust as needed */
+#backg {
+    background-size:cover;
+    background-position: cover cover;
 }
-
 
 @media (min-width: 600px) {
     /* Tablet styles */
@@ -31,27 +31,71 @@
 
 @media (min-width: 900px) {
     /* Small Laptops */
+    .textcontainer{
+
+        font-family: 'gascogne-serial-medium-regular', sans-serif;
+        font-weight: normal;
+        font-size: 0.7em;
+        position: relative;
+        bottom: 55%;
+        color: #EA3431;
+    
+    }
    
 }
 
 @media (min-width: 1200px) {
     /* Desktops */
     .textcontainer{
-
-        font-family: 'gascogne-serial-medium-regular', sans-serif;
-        position: relative;
-        right: 22vw;
-        bottom: 12vh;
-        font-size: 5em;
+        width: 45vw;
+        height: 30vh;
         color: #EA3431;
+        position: relative;
+        top: 1vh;
     
     }
-    .lead {
-        font-family: 'gascogne-serial-medium-regular', sans-serif;
-        font-size: 0.3em;
+
+    #backg {
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    
+
+    #welcome {
+        font-size: 4em;
+    }
+    #welcome2 {
+        font-size: 2em;
+        color: #1E2A5A;
     }
 
-    .btn {
+    .servicebtn {
+        font-size: 0.5em;
+        color: white;
+        background-color: #EA3431;
+
+    }
+}
+
+@media (min-width: 2560px) {
+    /* Desktops */
+    .textcontainer{
+        width: 45vw;
+        height: 30vh;
+        color: #EA3431;
+        position: relative;
+    
+    }
+
+    #welcome {
+        font-size: 5em;
+    }
+    #welcome2 {
+        font-size: 2.5em;
+        color: #1E2A5A;
+    }
+
+    .servicebtn {
         font-size: 0.5em;
         color: white;
         background-color: #EA3431;
