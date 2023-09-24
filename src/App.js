@@ -11,6 +11,7 @@ import Trust from './components/Trust';
 import ExpandingGrid from './components/ExpandingGrid';
 import Facilities from './components/Facilities';
 import Worldwide from './components/Worldwide';
+import WhatsAppWidget from './components/Whatsapp';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
                 <ExpandingGrid/>
                 <Facilities/>
                 <Worldwide/>
+                <WhatsAppWidget phoneNumber="+6592372289" message="Hi, I'm interested in your services" />
             </div>
         </div>
     );
