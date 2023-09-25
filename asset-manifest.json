@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/brightsun2/static/css/main.5a8a21ea.css",
-    "main.js": "/brightsun2/static/js/main.8564b573.js",
+    "main.css": "/brightsun2/static/css/main.b421dc6d.css",
+    "main.js": "/brightsun2/static/js/main.b783cca6.js",
     "static/js/787.5c4c2ce9.chunk.js": "/brightsun2/static/js/787.5c4c2ce9.chunk.js",
     "static/media/reworked.png": "/brightsun2/static/media/reworked.48beed7d20560e0d0207.png",
     "static/media/background.jpeg": "/brightsun2/static/media/background.3881e7b6bead4032c3de.jpeg",
@@ -274,12 +274,12 @@
     "static/media/pl.svg": "/brightsun2/static/media/pl.cd835d05865e496ff6b8.svg",
     "static/media/de.svg": "/brightsun2/static/media/de.6435bf24d148ca7248e7.svg",
     "static/media/bd.svg": "/brightsun2/static/media/bd.0ad8c443ef4d47ea0497.svg",
-    "main.5a8a21ea.css.map": "/brightsun2/static/css/main.5a8a21ea.css.map",
-    "main.8564b573.js.map": "/brightsun2/static/js/main.8564b573.js.map",
+    "main.b421dc6d.css.map": "/brightsun2/static/css/main.b421dc6d.css.map",
+    "main.b783cca6.js.map": "/brightsun2/static/js/main.b783cca6.js.map",
     "787.5c4c2ce9.chunk.js.map": "/brightsun2/static/js/787.5c4c2ce9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a8a21ea.css",
-    "static/js/main.8564b573.js"
+    "static/css/main.b421dc6d.css",
+    "static/js/main.b783cca6.js"
   ]
 }
