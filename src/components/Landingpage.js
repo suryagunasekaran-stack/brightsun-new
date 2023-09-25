@@ -26,6 +26,7 @@ function LandingPage() {
 
                             <p>
                                 <a href="#services"> <button className='servicebtn' onClick={() => handleClickScroll('services')} href="#services">{t('Our Services')} </button></a>
+                                <a href="https://www.youtube.com/embed/vMrhQI7Tr78?rel=0" target="_BLANK" rel="noreferrer"><button className='servicebtn2'> {t('video')}</button></a>
                             </p>
                         </div>
                     </div>

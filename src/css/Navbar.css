@@ -22,12 +22,12 @@
     height: 1vh;
 }
 .nav-link {
-    font-size: 0.3em;
+    font-size: 2em;
     color: #1E2A5A;
 }
 
 .c  {
-    width: 61px;
+    width: 108px;
     height: 35px;
     margin-bottom: 5px;
     color: white;
@@ -56,6 +56,11 @@
     display: none;
 }
 
+#laa {
+    background-color: #EA3431;
+    width: 109px;
+}
+
 @media (min-width: 600px) {
     /* Tablet styles */
     .sunlogo {
@@ -64,10 +69,9 @@
     }
     .navbar-toggler {
         position: relative;
-        left: 22%;
     }
     .nav-link {
-        font-size: 0.5em;
+        font-size: 1em;
     }
 
     .c {
@@ -90,7 +94,7 @@
         height: 10vh;
     }
     .nav-link {
-        font-size: 0.8em;
+        font-size: 1.3em;
 
     }
     .c {
@@ -98,7 +102,7 @@
     }
 
     #brou {
-        display:flex;
+        width: 106px;
     }
     
     #dropdown-basic-button {
@@ -110,13 +114,14 @@
 @media (min-width: 1200px) {
     /* Desktops */
     #navmain {
-        font-size: 2em;
+        font-size: 1.7em;
         
     }
     
     #brou {
-        font-size: 0.7em; /* increase font size */
+        font-size: 0.8em; /* increase font size */
         padding: 12px 20px; /* add padding to increase button size */
+        width: fit-content;
         color: white;
         border-radius: 5px;
         background-color: #EA3431;
@@ -127,6 +132,8 @@
     #laa {
         font-size: 0.6em; /* increase font size */
         padding: 12px 20px; /* add padding to increase button size */
+        width: 120px;
+        height: 60px;
         color: white;
         border-radius: 5px;
         background-color: #EA3431;

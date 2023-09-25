@@ -1,16 +1,26 @@
 .textcontainer {
     font-family: 'gascogne-serial-medium-regular', sans-serif;
     font-weight: normal;
-    font-size: 1em;
     color: #EA3431;
     text-align: left; /* Align text to the left */
     margin-left: 5%; /* Add some margin to the left */
+    position: relative;
+    top: -25vh;
 }
 
-.servicebtn {
+#welcome {
+    font-size: 2em;
+}
+#welcome2 {
+    font-size: 1em;
+    color: #1E2A5A;
+}
+
+.servicebtn2 {
     font-size: 0.5em;
     color: white;
     border-radius: 5px;
+    margin-left: 10px;
     background-color: #EA3431;
     box-shadow: none;
     border: none;
@@ -18,8 +28,8 @@
 
 .biz {
     position: absolute;
-    right: 5%; /* adjust as needed */
-    top: 30%; /* adjust as needed */
+    left: -3%; /* adjust as needed */
+    bottom: 5%; /* adjust as needed */
     width: 200px; /* adjust as needed */
 }
 
@@ -33,6 +43,17 @@
     border: none;
 }
 
+.servicebtn2 {
+    font-size: 1.5em;
+    color: white;
+    border-radius: 5px;
+    height: 58px;
+    margin: 10px;
+    background-color: #EA3431;
+    box-shadow: none;
+    border: none;
+}
+
 
 
 #backg {
@@ -41,11 +62,40 @@
     height: 100vh; /* Set height to 100% of the viewport height */
 }
 
+@media (min-width: 766) {
+    /* Small Laptops */
+    .biz {
+        position: absolute;
+        left: 70%; /* adjust as needed */
+        bottom: 38%; /* adjust as needed */
+        width: 200px; /* adjust as needed */
+    }
+
+}
+
 @media (min-width: 900px) {
     /* Small Laptops */
     .textcontainer {
-        font-size: 0.7em;
-        margin-left: 15%; /* Increase left margin */
+        font-size: 0.9em;
+        margin-left: 5%; /* Increase left margin */
+        position: relative;
+        top: -57%;
+    }
+
+
+    #welcome {
+        font-size: 2em;
+    }
+    #welcome2 {
+        font-size: 1.5em;
+        color: #1E2A5A;
+    }
+
+    .biz {
+        position: absolute;
+        left: 80%; /* adjust as needed */
+        bottom: 32%; /* adjust as needed */
+        width: 200px; /* adjust as needed */
     }
 }
 
@@ -54,17 +104,16 @@
     .textcontainer {
         width: auto;
         height: auto;
-        font-size: 1em;
         margin-left: 0%; /* Increase left margin */
         position: relative;
-        top: -25vh;
+        top: -13vh;
     }
 
     #welcome {
-        font-size: 2em;
+        font-size: 4em;
     }
     #welcome2 {
-        font-size: 1.5em;
+        font-size: 2em;
         color: #1E2A5A;
     }
     #backg {
@@ -74,9 +123,9 @@
 
     .biz {
         position: absolute;
-        right: 5%; /* adjust as needed */
+        left: 75%; /* adjust as needed */
         top: 30%; /* adjust as needed */
-        width: 200px; /* adjust as needed */
+        width: 300px; /* adjust as needed */
     }
     
 }

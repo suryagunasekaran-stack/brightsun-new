@@ -79,6 +79,7 @@ const resources = {
 
             "fac": "Facilities",
             "laa": "Language",
+            "video": "Watch Video",
 
 
             // ... other English translations
@@ -161,6 +162,7 @@ const resources = {
 
             "fac": "設備",
             "laa": "日本語",
+            "video": "ビデオを見る",
 
             // ... other Japanese translations
         }
@@ -243,6 +245,8 @@ const resources = {
 
             "fac": "வசதிகள்",
             "laa": "தமிழ்",
+
+            "video": "காணொளி பார்க்கவும்",
             // ... other Tamil translations
         }
     },
@@ -323,6 +327,8 @@ const resources = {
 
             "fac": "Kemudahan",
             "laa": "melayu",
+
+            "video": "Tonton Video",
             // ... other Malay translations
         }
     },
@@ -403,6 +409,8 @@ const resources = {
 
             "fac": "设施",
             "laa": "中国人",
+
+            "video": "观看视频",
             // ... other Chinese translations
         }
     }
