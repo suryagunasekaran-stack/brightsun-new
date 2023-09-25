@@ -1,9 +1,25 @@
-.grid-container-flag {
+.worldwide-container {
+    text-align: center;
+    background-color: #F0FFF0; /* black background with 40% opacity */
+    padding: 20px;
+  }
+  
+  .grid-container-flag {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px; /* Adjust this value if you want more/less space between items */
-}
+    gap: 20px;
+  }
+  
+  .grid-item-flag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+  }
 
-.grid-item-flag {
-    margin: 5px 0; /* Add vertical spacing between the text and the flag */
-}
+  #followgrid{
+    color: white;
+  }
+  

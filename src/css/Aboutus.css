@@ -22,16 +22,17 @@
     /* Tablet styles */
     .col-md-8 {
         width: 90vw;
-        font-size: 1.3em;
+        font-size: 0.7em;
         color: #FFFFE0;
         display: flex;
         position: relative;
         flex-direction: column;
-        align-items: center;     /* Horizontal centering for block elements */
+        align-items: center;     /* Horizontal centering */
+        justify-content: center; /* Vertical centering */
         height: 100%;            /* Take full height of its parent */
-        text-align: center;      /* For inline elements like text */
-        left: 3vw;
-
+        text-align: center;      /* Text centering */
+        margin: 0 auto;         /* Centering the element itself */
+        left: 0;                /* Resetting the left property */
     }
 
     .aboutlength {
@@ -42,23 +43,39 @@
 
 @media (min-width: 900px) {
     /* Small Laptops */
+    .col-md-8 {
+        width: 90vw;
+        font-size: 1em;
+        color: #FFFFE0;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;     /* Horizontal centering */
+        justify-content: center; /* Vertical centering */
+        height: 100%;            /* Take full height of its parent */
+        text-align: center;      /* Text centering */
+        margin: 0 auto;         /* Centering the element itself */
+        left: 0;                /* Resetting the left property */
+    }
 
 }
 
 @media (min-width: 1200px) {
     /* Desktops */
-   .col-md-8 {
+    .col-md-8 {
         width: 90vw;
-        font-size: 2em;
+        font-size: 1.5em;
         color: #FFFFE0;
         display: flex;
         position: relative;
         flex-direction: column;
-        align-items: center;     /* Horizontal centering for block elements */
+        align-items: center;     /* Horizontal centering */
+        justify-content: center; /* Vertical centering */
         height: 100%;            /* Take full height of its parent */
-        text-align: center;      /* For inline elements like text */
-        left: -17vw;
-
+        text-align: center;      /* Text centering */
+        margin: 0 auto;         /* Centering the element itself */
+        left: 0;                /* Resetting the left property */
     }
+    
 
 }

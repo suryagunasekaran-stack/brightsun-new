@@ -75,7 +75,9 @@ const resources = {
             "ism": "In Situ Machining",
             "ismd": "On-site precision machining for immediate solutions.",
             "ism1": "Proven track record aided with state of the art equipments & specialized procedures",
-            "ism2": "Machining of Stern Tube, Crane Column, Crane Heel Pin, Rudder Trunk, Flanges etc"
+            "ism2": "Machining of Stern Tube, Crane Column, Crane Heel Pin, Rudder Trunk, Flanges etc",
+
+            "fac": "Facilities",
 
 
             // ... other English translations
@@ -156,6 +158,8 @@ const resources = {
             "ism1": "最先端の機器および特殊な手順を使用した実績が確認されています",
             "ism2": "スターンチューブ、クレーンコラム、クレーンヒールピン、ルダートランク、フランジなどの加工",
 
+            "fac": "設備",
+
             // ... other Japanese translations
         }
     },
@@ -234,6 +238,8 @@ const resources = {
             "ismd": "உடனடியாக தீர்வுகளுக்கு இடத்தில் துல்லியமான இயந்திர வேலை",
             "ism1": "முதலாதிக உபகரணங்கள் & சிறப்பு செயல்முறைகளுடன் உத்தமமான பாதை பதிவு",
             "ism2": "ஸ்டேர் டியூப், கிரேன் கம்பு, கிரேன் ஹீல் பின், ருத்தர் டிரங்க், ஃபிளாஞ்சிஸ் முதலியவற்றின் இயந்திர வேலை",
+
+            "fac": "வசதிகள்",
             // ... other Tamil translations
         }
     },
@@ -312,6 +318,7 @@ const resources = {
             "ism1": "Rekod trek yang terbukti dengan peralatan canggih & prosedur khusus",
             "ism2": "Pemesinan Tiub Buritan, Kolom Kren, Pin Tumit Kren, Bagasi Kemudi, Flens dan sebagainya",
 
+            "fac": "Kemudahan",
             // ... other Malay translations
         }
     },
@@ -389,6 +396,8 @@ const resources = {
             "ismd": "现场精密加工以获得即时解决方案",
             "ism1": "经过验证的跟踪记录，配备最先进的设备和专门的程序",
             "ism2": "船尾管、起重机柱、起重机后跟销、舵柱、法兰等的加工",
+
+            "fac": "设施",
             // ... other Chinese translations
         }
     }

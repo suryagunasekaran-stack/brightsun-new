@@ -12,6 +12,7 @@ import ExpandingGrid from './components/ExpandingGrid';
 import Facilities from './components/Facilities';
 import Worldwide from './components/Worldwide';
 import WhatsAppWidget from './components/Whatsapp';
+import ContactUs from './components/Contactus';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                 <ExpandingGrid/>
                 <Facilities/>
                 <Worldwide/>
+                <ContactUs/>
                 <WhatsAppWidget phoneNumber="+6592372289" message="Hi, I'm interested in your services" />
             </div>
         </div>

@@ -1,44 +1,40 @@
-  .facbackground {
-    background-color: bisque;
-    text-align: center;
-  }
+.facbackground {
+  background-color:#87CEFA;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
 
-  ul {
+.scrollul {
+  display: flex;
+  overflow-x: auto;
+  list-style-type: none;
+  padding: 0;
+  white-space: nowrap;
+  justify-content: space-evenly;
+  color: black;
+}
 
-    display: flex;
-    list-style: none;
-    height: 300px;
-    overflow-x: scroll;
-    padding: 20px 0;
-    flex: 0 0 600px;
-    margin: 0 auto;
-    justify-content: center;
-    scroll-behavior: smooth;
-  }
-  
-  ::-webkit-scrollbar {
-    height: 5px;
-    width: 5px;
-    background: #fff3;
-    -webkit-border-radius: 1ex;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: var(--accent);
-    -webkit-border-radius: 1ex;
-  }
-  
-  ::-webkit-scrollbar-corner {
-    background: #fff3;
-  }
-  
-  li {
-    flex: 0 0 150px;
-    background: white;
-    margin: 0 20px 0 0;
-  }
-  
-  li:last-of-type {
-    margin: 0;
-  }
-  
+.scrollul li {
+  flex: 0 0 auto;
+  background-color: white;
+  margin-right: 10px;
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  display: inline-block; /* Ensure items are inline */
+}
+
+.scrollul li img {
+  width: 100%;
+  border-bottom: 2px solid #ccc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 70%;
+}
+
+.scrollul li div {
+  padding: 10px;
+  text-align: center;
+  height: 30%;
+}

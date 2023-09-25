@@ -5,6 +5,7 @@ import "../css/Worldwide.css"
 export default function Worldwide () {
     return (
       <>
+      <div className="worldwide-container">
       <h1 id="followgrid">Worldwide Network</h1>
       <div className="grid-container-flag">
 
@@ -17,6 +18,7 @@ export default function Worldwide () {
           <div className="grid-item-flag">SHANGHAI SAJEE MACHINERY CO LTD  <br /> <span className="flag-icon flag-icon-cn" style={{width:"100px", height: "100px"}}></span> CHINA</div>
           <div className="grid-item-flag">AYS SHIP REPAIR B.V <br /> <span className="flag-icon flag-icon-nl" style={{width:"100px", height: "100px"}}></span> NETHERLANDS</div>
           <div className="grid-item-flag">AYS SHIP REPAIR B.V <br /> <span className="flag-icon flag-icon-be" style={{width:"100px", height: "100px"}}></span> BELGIUM</div>
+      </div>
       </div>
   </>
       );

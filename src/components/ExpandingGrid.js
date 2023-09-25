@@ -65,6 +65,11 @@ const ExpandingGrid = () => {
 
   const handleClick = (id) => {
     setSelected(selected === id ? null : id);
+    if (selected === id) {
+      document.body.classList.remove('no-scroll');
+    } else {
+      document.body.classList.add('no-scroll');
+    }
   };
 
   function renderDetailsForItem(item) {

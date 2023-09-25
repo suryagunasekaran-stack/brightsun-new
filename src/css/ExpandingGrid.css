@@ -1,12 +1,12 @@
 /* ExpandingGrid.css */
 
 .grid {
-    display: flex;
-    flex-wrap: wrap;
-    max-height: 100vh;
-    flex: 1;
-    overflow: hidden;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  overflow: hidden; /* or auto, depending on your needs */
+}
+
   
   .grid-item {
     width: 70%;
@@ -29,9 +29,9 @@
   }
   
   .grid-item.expanded {
-    position: absolute;
+    position: fixed; /* Changed from absolute to fixed */
     top: 0;
-    right: 0;
+    left: 0; /* Added left: 0 to ensure it covers the entire viewport width */
     width: 100vw;
     height: 100vh;
     z-index: 100;
@@ -47,20 +47,24 @@
     /* ... other styles ... */
 }
   
-  .expanded-content {
-    position: fixed;
-    top: 45%;
-    left: 10%;
-    width: 80%;
-    height: 50%;
-    background-color: black;
-    opacity: 30%;
-    padding: 20px;
-    color: white;
-    z-index: 1000;
-    opacity: 0;  /* Initial opacity set to 0 for fade-in effect */
-    animation: fadeIn 1s forwards;  /* Animation to fade in the content */
-    overflow-y: auto;
+.expanded-content {
+  position: fixed;
+  top: 0; /* Set to 0 to cover the entire height */
+  left: 0; /* Set to 0 to cover the entire width */
+  width: 100vw; /* Set to 100vw to cover the entire width */
+  height: 100vh; /* Set to 100vh to cover the entire height */
+  background-color: black;
+  padding: 20px;
+  color: white;
+  z-index: 1000;
+  display: flex; /* Added to center the content */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  overflow-y: auto;
+}
+
+.no-scroll {
+  overflow: hidden;
 }
 
 @keyframes fadeIn {
@@ -69,11 +73,11 @@
     }
 }
 
-.expanded-content h2,
-.expanded-content p {
-    opacity: 0; /* Start with text hidden */
-    animation: textFadeIn 1.5s forwards; /* Apply the animation */
-    animation-delay: 0.5s; /* Delay the start of the animation */
+
+.expanded-content h2, .expanded-content ul {
+  opacity: 0; /* Start with text hidden */
+  animation: textFadeIn 1.5s forwards; /* Apply the animation */
+  animation-delay: 0.5s; /* Delay the start of the animation */
 }
 
 @keyframes textFadeIn {
@@ -84,14 +88,6 @@
 
 @media (min-width: 375px) {
   /* Tablet styles */
-  .grid-item-wrapper {
-    display: flex;
-    flex-direction: column; /* Stack children vertically */
-    align-items: center;    /* Center children horizontally */
-    width: calc(100% - 20px);
-    margin: 10px;
-    height: 45vh;
-  }
 }
 
 @media (min-width: 425px) {
@@ -117,24 +113,11 @@
   /* Small Laptops */
 
 
-  .grid-item-wrapper {
-    display: flex;
-    flex-direction: column; /* Stack children vertically */
-    align-items: center;    /* Center children horizontally */
-    width: calc(100% - 20px);
-    margin: 10px;
-    height: 80vh;
-  }
 }
 
 @media (min-width: 1200px) {
   /* Desktops */
-  .grid-item-wrapper {
-    display: flex;
-    flex-direction: column; /* Stack children vertically */
-    align-items: center;    /* Center children horizontally */
-    width: calc(100% - 20px);
-    margin: 10px;
-    height: 100vh;
+  .expanded-content {
+    font-size: 1.5em;
   }
 }
