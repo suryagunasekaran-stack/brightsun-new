@@ -1,0 +1,28 @@
+.Enginemaker {
+    position: relative;
+    top: 100px; /* Adjust as per your requirement */
+    width: 100%;
+  }
+  
+  .ticker {
+    width: 100%;
+  }
+  
+  .authorisation {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 1.5em;
+    padding-left: 20px;
+    /* Add additional styles for "Authorisation From Engine Maker’s" text here */
+  }
+  
+  .items {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+  }
+  
+  #IHI {
+    margin-right: 20px; /* Add some space between the SVG and the text */
+  }
+  

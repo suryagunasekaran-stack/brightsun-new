@@ -10,7 +10,7 @@ function Facilities() {
     const ref = useRef(null);
     const { scrollXProgress } = useScroll({ container: ref });
     return (
-        <div className='facbackground'>
+        <div id='facilities' className='facbackground'>
           <h1>{t('fac')}</h1>
 
         <ul ref={ref} className='scrollul'>

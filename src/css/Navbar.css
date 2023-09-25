@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* Ensures the navbar is above other content */
+    z-index: 1001; /* Ensures the navbar is above other content */
     /* Additional styles like background, height, etc. */
     background: white;
 }
@@ -111,6 +111,27 @@
     /* Desktops */
     #navmain {
         font-size: 2em;
+        
+    }
+    
+    #brou {
+        font-size: 0.7em; /* increase font size */
+        padding: 12px 20px; /* add padding to increase button size */
+        color: white;
+        border-radius: 5px;
+        background-color: #EA3431;
+        box-shadow: none;
+        border: none;
+    }
+
+    #laa {
+        font-size: 0.6em; /* increase font size */
+        padding: 12px 20px; /* add padding to increase button size */
+        color: white;
+        border-radius: 5px;
+        background-color: #EA3431;
+        box-shadow: none;
+        border: none;
     }
 
     .sunlogo {

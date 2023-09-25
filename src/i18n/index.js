@@ -78,6 +78,7 @@ const resources = {
             "ism2": "Machining of Stern Tube, Crane Column, Crane Heel Pin, Rudder Trunk, Flanges etc",
 
             "fac": "Facilities",
+            "laa": "Language",
 
 
             // ... other English translations
@@ -159,6 +160,7 @@ const resources = {
             "ism2": "スターンチューブ、クレーンコラム、クレーンヒールピン、ルダートランク、フランジなどの加工",
 
             "fac": "設備",
+            "laa": "日本語",
 
             // ... other Japanese translations
         }
@@ -240,6 +242,7 @@ const resources = {
             "ism2": "ஸ்டேர் டியூப், கிரேன் கம்பு, கிரேன் ஹீல் பின், ருத்தர் டிரங்க், ஃபிளாஞ்சிஸ் முதலியவற்றின் இயந்திர வேலை",
 
             "fac": "வசதிகள்",
+            "laa": "தமிழ்",
             // ... other Tamil translations
         }
     },
@@ -319,6 +322,7 @@ const resources = {
             "ism2": "Pemesinan Tiub Buritan, Kolom Kren, Pin Tumit Kren, Bagasi Kemudi, Flens dan sebagainya",
 
             "fac": "Kemudahan",
+            "laa": "melayu",
             // ... other Malay translations
         }
     },
@@ -398,6 +402,7 @@ const resources = {
             "ism2": "船尾管、起重机柱、起重机后跟销、舵柱、法兰等的加工",
 
             "fac": "设施",
+            "laa": "中国人",
             // ... other Chinese translations
         }
     }

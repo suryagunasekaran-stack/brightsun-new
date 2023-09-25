@@ -3,7 +3,7 @@ import '../css/ContactUs.css';
 
 export default function ContactUs() {
   return (
-    <div className="contact-container">
+    <div id='contactus' className="contact-container">
       <div className="contact-info">
         <h1>BRIGHTSUN MARINE PTE LTD</h1>
         <h2>Workshop & Office</h2>

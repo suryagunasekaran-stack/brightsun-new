@@ -4,6 +4,11 @@
     right: 20px; /* changed from left to right */
     z-index: 1000;
   }
+
+  #wht {
+    height: 70px;
+    width: 70px;
+  }
   
   .whatsapp-popup {
     position: absolute;

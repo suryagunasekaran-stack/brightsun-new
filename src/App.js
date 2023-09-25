@@ -13,12 +13,14 @@ import Facilities from './components/Facilities';
 import Worldwide from './components/Worldwide';
 import WhatsAppWidget from './components/Whatsapp';
 import ContactUs from './components/Contactus';
+import Enginemaker from './components/Ticker';
 
 
 function App() {
     return (
         <div className="App">
             <NavigationBar />
+            <Enginemaker/>
             <div className="snap-container">
                 <LandingPage />
                 <AboutUs />

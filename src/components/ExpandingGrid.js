@@ -180,8 +180,8 @@ const ExpandingGrid = () => {
 
 
   return (
-    <Flipper className='mainflip' flipKey={selected}>
-      <div className="grid">
+    <Flipper  className='mainflip' flipKey={selected}>
+      <div id="services" className="grid">
       {items.map(item => (
   <div key={item.id} className="grid-item-wrapper">
     <Flipped flipId={`item-${item.id}-background`} translate opacity>

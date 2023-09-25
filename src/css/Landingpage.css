@@ -1,17 +1,13 @@
-
-.textcontainer{
-
+.textcontainer {
     font-family: 'gascogne-serial-medium-regular', sans-serif;
     font-weight: normal;
-    font-size: 2em;
-    position: relative;
-    bottom: 55%;
+    font-size: 1em;
     color: #EA3431;
-
+    text-align: left; /* Align text to the left */
+    margin-left: 5%; /* Add some margin to the left */
 }
 
 .servicebtn {
-
     font-size: 0.5em;
     color: white;
     border-radius: 5px;
@@ -20,85 +16,82 @@
     border: none;
 }
 
-#backg {
-    background-size:cover;
-    background-position: cover cover;
+.biz {
+    position: absolute;
+    right: 5%; /* adjust as needed */
+    top: 30%; /* adjust as needed */
+    width: 200px; /* adjust as needed */
 }
 
-@media (min-width: 600px) {
-    /* Tablet styles */
+.servicebtn {
+    font-size: 1.5em; /* increase font size */
+    padding: 12px 20px; /* add padding to increase button size */
+    color: white;
+    border-radius: 5px;
+    background-color: #EA3431;
+    box-shadow: none;
+    border: none;
+}
+
+
+
+#backg {
+    background-size: cover;
+    background-position: center center; /* Center the background image */
+    height: 100vh; /* Set height to 100% of the viewport height */
 }
 
 @media (min-width: 900px) {
     /* Small Laptops */
-    .textcontainer{
-
-        font-family: 'gascogne-serial-medium-regular', sans-serif;
-        font-weight: normal;
+    .textcontainer {
         font-size: 0.7em;
-        position: relative;
-        bottom: 55%;
-        color: #EA3431;
-    
+        margin-left: 15%; /* Increase left margin */
     }
-   
 }
 
 @media (min-width: 1200px) {
     /* Desktops */
-    .textcontainer{
-        width: 45vw;
-        height: 30vh;
-        color: #EA3431;
+    .textcontainer {
+        width: auto;
+        height: auto;
+        font-size: 1em;
+        margin-left: 0%; /* Increase left margin */
         position: relative;
-        top: 1vh;
-    
+        top: -25vh;
     }
-
-    #backg {
-        background-size:cover;
-        background-repeat: no-repeat;
-    }
-    
 
     #welcome {
-        font-size: 4em;
+        font-size: 2em;
     }
     #welcome2 {
-        font-size: 2em;
+        font-size: 1.5em;
         color: #1E2A5A;
     }
-
-    .servicebtn {
-        font-size: 0.5em;
-        color: white;
-        background-color: #EA3431;
-
+    #backg {
+        background-size: cover;
+        background-position: 10% 20% !important; /* X Y */
     }
+
+    .biz {
+        position: absolute;
+        right: 5%; /* adjust as needed */
+        top: 30%; /* adjust as needed */
+        width: 200px; /* adjust as needed */
+    }
+    
 }
 
 @media (min-width: 2560px) {
-    /* Desktops */
-    .textcontainer{
-        width: 45vw;
-        height: 30vh;
-        color: #EA3431;
-        position: relative;
-    
+    /* Large Desktops */
+    .textcontainer {
+        font-size: 1em;
+        margin-left: 10%; /* Increase left margin */
     }
 
     #welcome {
-        font-size: 5em;
+        font-size: 1em;
     }
     #welcome2 {
-        font-size: 2.5em;
-        color: #1E2A5A;
-    }
-
-    .servicebtn {
-        font-size: 0.5em;
-        color: white;
-        background-color: #EA3431;
-
+        font-size: 1em;
     }
 }
