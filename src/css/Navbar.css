@@ -5,7 +5,7 @@
     width: 100%;
     z-index: 1001; /* Ensures the navbar is above other content */
     /* Additional styles like background, height, etc. */
-    background: white;
+
 }
 
 .navbar-nav {
@@ -23,7 +23,7 @@
 }
 .nav-link {
     font-size: 2em;
-    color: #1E2A5A;
+    color: white;
 }
 
 .c  {

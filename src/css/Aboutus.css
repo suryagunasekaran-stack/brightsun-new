@@ -1,81 +1,142 @@
-.parallax-bg-image  {
-    background-color: #EA3431;
- }
-
  .aboutlength {
-    height: 70vh;
- }
+    height: 110vh;
+    background: linear-gradient(90deg, rgba(128, 128, 128, 0.1) 1px, transparent 1px), #fff;
+    background-size: 20vw 100%;
+    width: 100%;
+    color: #283260;
+    z-index: 10;
+  }
 
-.col-md-8 {
-    padding: 3vh;
-    font-size: 1em;
-    color: #FFFFE0;
-    flex-direction: column;
-    align-items: center;     /* Horizontal centering for block elements */
-    text-align: center;      /* For inline elements like text */
+  .wrapperabout{
+    margin: 45px;
+
+  }
+
+  .aboutustitle {
+    color: #283260;
+    font-size: 2.3em;
+    letter-spacing: 0.4em;
+    font-family: TitlingGothicFB Ext;
+    font-weight: 1000;
+    text-transform: uppercase;
+    text-align: start;
+    opacity: 1;
+  }
+
+  .flexContainerabout {
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+
+  }
+  
+  .row1about, .row2about, .row3about {
+    width: 100%; /* Make each row take up the full width of the container */
+    letter-spacing: normal;
+    line-height: 31px;
+  }
+  
+  .row1about {
+    height: 30%;
+    margin-top: 42px;
+    font-family: TitlingGothicFB Narrow;
+    font-size: 1.3em;
+    font-weight: 500;
+  }
+  
+  .row2about {
+    margin-top: 21px;
+    height: 60%;
+    text-align: start;
+  }
+  
+  .row3about {
+    height: 10%;
+  }
+
+  .highlight {
+        color: #1b6bdc; /* or any other color you prefer */
 }
 
+.custom-bullets {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0;
+  }
+  
+  .custom-bullets li {
+    position: relative; /* Position relative to the custom bullet */
+    padding-left: 30px; /* Provide space for the custom bullet */
+  }
+  
+  .custom-bullets li:before {
+    content: ''; /* Empty content for the pseudo-element */
+    position: absolute; /* Absolute position */
+    left: 0; /* Position to the left */
+    top: 20%; /* Center vertically */
+    width: 8px; /* Width of the custom bullet */
+    height: 8px; /* Height of the custom bullet */
+    background-color: #1b6bdc; /* Blue color */
+    border-radius: 50%; /* Round shape */
+    box-shadow: 0 0 5px  #1b6bdc; /* Blue glow effect */
+    animation: ping 2s infinite; /* Animation */
+    transform: translateY(-50%); /* Center vertically */
+  }
+  
+  /* Animation for a pinging effect */
+  @keyframes ping {
+    0% {
+      box-shadow: 0 0 5px  #1b6bdc;
+    }
+    100% {
+      box-shadow: 0 0 10px  #1b6bdc, 0 0 20px  #1b6bdc;
+    }
+  }
 
-
+  .row3about h2 {
+    position: relative; /* Relative position for positioning pseudo-elements */
+    font-size: 1.5rem; /* Set font size for the text */
+    color: #283260; /* Set text color */
+    text-align: start; /* Center the text */
+    opacity: 0.9;
+    margin-top: 21px;
+  }
+  
+  .quote::before,
+  .quote::after {
+    content: '“'; /* Add quotation marks */
+    position: absolute; /* Absolute position */
+    font-size: 4rem; /* Set font size for quotation marks */
+    color: rgba(0, 0, 255, 0.2); /* Set color and transparency */
+  }
+  
+  .quote::before {
+    top: -20px; /* Position above the text */
+    left: -20px; /* Position to the left of the text */
+  }
+  
+  .quote::after {
+    content: '”'; /* Add ending quotation mark */
+    bottom: -20px; /* Position below the text */
+    right: -20px; /* Position to the right of the text */
+  }
+  
+  
+  
 
 @media (min-width: 600px) {
     /* Tablet styles */
-    .col-md-8 {
-        width: 90vw;
-        font-size: 0.7em;
-        color: #FFFFE0;
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        align-items: center;     /* Horizontal centering */
-        justify-content: center; /* Vertical centering */
-        height: 100%;            /* Take full height of its parent */
-        text-align: center;      /* Text centering */
-        margin: 0 auto;         /* Centering the element itself */
-        left: 0;                /* Resetting the left property */
-    }
 
-    .aboutlength {
-        height: 70vh;
-     }
    
 }
 
 @media (min-width: 900px) {
     /* Small Laptops */
-    .col-md-8 {
-        width: 90vw;
-        font-size: 1em;
-        color: #FFFFE0;
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        align-items: center;     /* Horizontal centering */
-        justify-content: center; /* Vertical centering */
-        height: 100%;            /* Take full height of its parent */
-        text-align: center;      /* Text centering */
-        margin: 0 auto;         /* Centering the element itself */
-        left: 0;                /* Resetting the left property */
-    }
+
 
 }
 
 @media (min-width: 1200px) {
     /* Desktops */
-    .col-md-8 {
-        width: 90vw;
-        font-size: 1.5em;
-        color: #FFFFE0;
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        align-items: center;     /* Horizontal centering */
-        justify-content: center; /* Vertical centering */
-        height: 100%;            /* Take full height of its parent */
-        text-align: center;      /* Text centering */
-        margin: 0 auto;         /* Centering the element itself */
-        left: 0;                /* Resetting the left property */
-    }
+
     
 
 }

@@ -20,18 +20,15 @@ function App() {
     return (
         <div className="App">
             <NavigationBar />
-            <Enginemaker/>
-            <div className="snap-container">
                 <LandingPage />
                 <AboutUs />
                 <VisionMission/>
-                <Trust/>
+                {/* <Trust/>
                 <ExpandingGrid/>
                 <Facilities/>
                 <Worldwide/>
                 <ContactUs/>
-                <WhatsAppWidget phoneNumber="+6592372289" message="Hi, I'm interested in your services" />
-            </div>
+                <WhatsAppWidget phoneNumber="+6592372289" message="Hi, I'm interested in your services" /> */}
         </div>
     );
 }

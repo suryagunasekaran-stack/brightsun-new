@@ -1,8 +1,9 @@
 import React from 'react';
-import heroImage from '../images/reworked.png'; // Replace with the path to your hero image
+import backgroundVideo from '../videos/219.mp4';
 import { useTranslation } from 'react-i18next';
 import "../css/Landingpage.css"
 import biz from "../images/bizsafe-star-seeklogo.com.svg"
+import Enginemaker from './Ticker';
 
 function LandingPage() {
     const { t } = useTranslation();
@@ -14,28 +15,33 @@ function LandingPage() {
     };
     return (
         
-        <div className="d-flex align-items-center vh-100" id='backg' style={{ backgroundImage: `url(${heroImage})`}}>
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-7">
-                        <div className="textcontainer">
-                           <h1 id='welcome'>{t('Welcome')}</h1>
-                           <p id='welcome2'>
-                           {t('Welcome2')}
-                           </p>
+        <div className="video-container">
+            
+            <video autoPlay="autoplay" loop="loop" muted className="background-video">
+                <source src={backgroundVideo} type="video/mp4" />
+            </video>
 
-                            <p>
-                                <a href="#services"> <button className='servicebtn' onClick={() => handleClickScroll('services')} href="#services">{t('Our Services')} </button></a>
-                                <a href="https://www.youtube.com/embed/vMrhQI7Tr78?rel=0" target="_BLANK" rel="noreferrer"><button className='servicebtn2'> {t('video')}</button></a>
-                            </p>
-                        </div>
-                    </div>
+            <div className="content">
+                <h1 id='welcome'>{t('Welcome')} </h1>
+                <h2 id='welcome2'>{t('Welcome2')}</h2>
+                <p>
+                    <button className='button-66' id='servicebtn' onClick={() => handleClickScroll('services')} href="#services">{t('Our Services')} </button>
+                    <a href="https://www.youtube.com/embed/vMrhQI7Tr78?rel=0" target="_BLANK" rel="noreferrer"><button className='button-66' id='videobtn'> {t('video')}</button></a>
+                </p>
+
+                <div className='engine'>
+                    <Enginemaker/>
                 </div>
             </div>
-            <img src={biz} alt="bizSafe Logo" className="biz" />
+
+
+        
+            <div className="biz" >
+                {/* <img src={biz} alt="bizSafe Logo" /> */}
+            </div>
         </div>
+
     );
 }
 
 export default LandingPage;
-

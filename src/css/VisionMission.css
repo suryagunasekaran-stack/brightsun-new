@@ -1,37 +1,53 @@
-.parallax-bg-image2  {
-    background-color: #0b5fd5;
- }
+.missionlength {
+    background-color: white; /* Set the background color to white */
+    position: relative;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+  }
 
- .missionlength {
-    height: 70vh;
- }
+  .half-filled-rectangle {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 30%; /* Set the width to 50% of the container, or any value larger than the width of ::before pseudo-element */
+    border: 1px solid rgb(217, 217, 217); /* Set the border to grey */
+    box-sizing: border-box;
+  }
+  
+  .half-filled-rectangle::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 42%;
+    background: 
+      linear-gradient(to bottom, grey 10%, #111921 10%); /* Top 10% grey, rest is #111921 */
+  }
 
-.col-md-6 {
-    padding: 3vh;
-    font-size: 1em;
-    color: #FFFFE0;
-    flex-direction: column;
-    align-items: center;     /* Horizontal centering for block elements */
-    text-align: center;      /* For inline elements like text */
 
-}
 
+  .half-filled-rectangle::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 10%; /* Set the height to 10% of the container */
+    width: 100vw; /* Set the width to 100% of the container */
+    background-color: #111921; /* Set the background color to grey */
+  }
+  
+  
+  .imagebright {
+    position: relative;
+    width: 68vw;
+    top: 6vh;
+  }
+  
 
 @media (min-width: 600px) {
     /* Tablet styles */
-    .col-md-6 {
-        width: 90vw;
-        font-size: 1.3em;
-        color: #FFFFE0;
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        align-items: center;     /* Horizontal centering for block elements */
-        height: 100%;            /* Take full height of its parent */
-        text-align: center;      /* For inline elements like text */
-        left: 3vw;
-
-    }
    
 }
 
