@@ -1,37 +1,25 @@
-.parallax-bg-image3  {
-    background-color:#FF6B6B;
- }
-
- .trustlength {
+.trustlength {
     height: 100vh;
- }
-
-.col-md-6 {
-    padding: 3vh;
-    font-size: 1em;
-    color: #FFFFE0;
-    flex-direction: column;
-    align-items: center;     /* Horizontal centering for block elements */
-    text-align: center;      /* For inline elements like text */
-
 }
 
+.containertrust {
+    content: "";
+    position: relative;
+    left: 300px;
+    top: 1px;
+    height: 100%;
+    width: 30%; /* Set the width to 50% of the container, or any value larger than the width of ::before pseudo-element */
+    border: 0.6px solid rgb(217, 217, 217); /* Set the border to grey */
+    box-sizing: border-box;
+  }
 
+  .picturetrust {
+    position: relative;
+    width: 70vw;
+    top: 0;
+    right: 0;
+  }
 @media (min-width: 600px) {
-    /* Tablet styles */
-    .col-md-6 {
-        width: 90vw;
-        font-size: 1.3em;
-        color: #FFFFE0;
-        display: flex;
-        position: relative;
-        flex-direction: column;
-        align-items: center;     /* Horizontal centering for block elements */
-        height: 100%;            /* Take full height of its parent */
-        text-align: center;      /* For inline elements like text */
-        left: 3vw;
-
-    }
    
 }
 

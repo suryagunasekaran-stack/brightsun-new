@@ -20,11 +20,11 @@ function App() {
     return (
         <div className="App">
             <NavigationBar />
-                <LandingPage />
-                <AboutUs />
-                <VisionMission/>
-                {/* <Trust/>
-                <ExpandingGrid/>
+            <LandingPage />
+            <AboutUs />
+            <VisionMission/>
+            <Trust/>
+                {/* <ExpandingGrid/>
                 <Facilities/>
                 <Worldwide/>
                 <ContactUs/>

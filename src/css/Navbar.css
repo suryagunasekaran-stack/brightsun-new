@@ -5,8 +5,15 @@
     width: 100%;
     z-index: 1001; /* Ensures the navbar is above other content */
     /* Additional styles like background, height, etc. */
-
 }
+
+.fixed-navbar {
+    position: fixed;
+    background-color: white;
+    z-index: 1001;
+    width: 100%;
+}
+
 
 .navbar-nav {
     color: black;

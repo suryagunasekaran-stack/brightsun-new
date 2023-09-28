@@ -7,6 +7,17 @@ import sun from '../images/sun.svg'
 import "../css/Navbar.css"
 
 function NavigationBar() {
+
+    window.addEventListener('scroll', function() {
+        const navbar = document.getElementById('navmain');
+        if (window.scrollY > 0) { 
+            navbar.classList.add('fixed-navbar');
+        } else {
+            navbar.classList.remove('fixed-navbar');
+        }
+    });
+
+    
     const { t, i18n } = useTranslation();
 
     const handleClickScroll = (id) => {
