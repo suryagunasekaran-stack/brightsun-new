@@ -9,11 +9,11 @@ function Trust() {
     return (
             <div className='trustlength'>
                 <div className='containertrust'> </div>
-                <img className='picturetrust' src={trust} alt="thepeople"/>
-                    {/* <div className='content'>
-                    <h1>{t('trust')}</h1>
-                    </div> */}
-                    {/* <p>{t('t')}</p> */}
+                {/* <img className='picturetrust' src={trust} alt="thepeople"/> */}
+                    <div className='contenttrust'>
+                        <h1>{t('trust')}</h1>
+                        <p>{t('t')}</p>
+                    </div>
 
             </div>
     );

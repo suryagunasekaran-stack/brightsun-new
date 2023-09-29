@@ -22,8 +22,7 @@
     top: 0;
     height: 100%;
     width: 42%;
-    background: 
-      linear-gradient(to bottom, grey 10%, #111921 10%); /* Top 10% grey, rest is #111921 */
+    background-color: #111921 ;
   }
 
 
@@ -33,9 +32,10 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 17%; /* Set the height to 10% of the container */
-    width: 100vw; /* Set the width to 100% of the container */
-    background-color: #111921; /* Set the background color to grey */
+    height: 15%;
+    width: 100vw;
+    background: linear-gradient(to top, #111921 50%, white 50%);
+    border-top: 0.6px solid rgb(217, 217, 217);
   }
   
   
@@ -50,8 +50,10 @@
     flex-direction: column;
     margin: 42px;
     position: relative;
-    left: 33px;
-    top: 75px;
+    left: 83px;
+    top: 42px;
+    width: 300px;
+    word-wrap: break-word;
   }
   
   .mission, .vision {

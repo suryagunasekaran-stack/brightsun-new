@@ -24,11 +24,11 @@ function App() {
             <AboutUs />
             <VisionMission/>
             <Trust/>
-                {/* <ExpandingGrid/>
-                <Facilities/>
-                <Worldwide/>
-                <ContactUs/>
-                <WhatsAppWidget phoneNumber="+6592372289" message="Hi, I'm interested in your services" /> */}
+            <ExpandingGrid/>
+            {/* <Facilities/>
+            <Worldwide/>
+            <ContactUs/>
+            <WhatsAppWidget phoneNumber="+6592372289" message="Hi, I'm interested in your services" /> */}
         </div>
     );
 }

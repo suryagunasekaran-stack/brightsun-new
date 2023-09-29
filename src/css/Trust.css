@@ -1,24 +1,55 @@
 .trustlength {
     height: 100vh;
+    position: relative;
+ 
 }
 
-.containertrust {
-    content: "";
-    position: relative;
-    left: 300px;
-    top: 1px;
+/* .containertrust {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30%;
     height: 100%;
-    width: 30%; /* Set the width to 50% of the container, or any value larger than the width of ::before pseudo-element */
-    border: 0.6px solid rgb(217, 217, 217); /* Set the border to grey */
+    border: 0.6px solid rgb(217, 217, 217);
     box-sizing: border-box;
+  } */
+
+.picturetrust {
+    position: absolute;
+    width: 70vw;
+    top: 6vh;
+    right: 0;
+}
+
+.contenttrust {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: #111921;
+    text-align: center;
+
+}
+
+.contenttrust h1 {
+    flex-basis: 10%;
+    margin: 21px;
+    border: 0.6px solid rgb(217, 217, 217);
+    padding: 21px;
+    background: white;
+    border-radius: 3px;
+}
+
+.contenttrust p {
+    flex-grow: 1; /* p takes up the rest of the space */
+    margin: 21px;
+    padding: 21px;
+    background: white;
+    border: 0.6px solid rgb(217, 217, 217);
+    border-radius: 3px;
   }
 
-  .picturetrust {
-    position: relative;
-    width: 70vw;
-    top: 0;
-    right: 0;
-  }
+
 @media (min-width: 600px) {
    
 }
