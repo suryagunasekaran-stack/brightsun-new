@@ -7,6 +7,14 @@ import img from "../images/background.jpeg"
 import img2 from "../images/placeholder.jpeg"
 import { useTranslation } from 'react-i18next';
 
+import mea from "../images/mea/mea.jpg"
+import rlc from "../images/rlc/rlc.png"
+import mms from "../images/mms/mms.JPG"
+import pi from "../images/pi/pi.JPG"
+import ssw from "../images/ssw/ssw.JPG"
+import eg from "../images/eg/eg.JPG"
+import ms from "../images/ms/ms.JPG"
+
 const ExpandingGrid = () => {
   const [selected, setSelected] = useState(null);
   const { t } = useTranslation();
@@ -14,43 +22,43 @@ const ExpandingGrid = () => {
   const items = [
     { id: 1,
       name: t('eg'),
-      imageUrl: img,
+      imageUrl: eg,
       description:  t('egd'),
       thumbnail: img2,
     },
     { id: 2,
       name: t('mea'),
-      imageUrl: img,
+      imageUrl: mea,
       description: t('mead'),
-      thumbnail: img2,
+      thumbnail: mea,
     },
     { id: 3,
       name: t('rlc'),
-      imageUrl: img,
+      imageUrl: rlc,
       description: t('rlcd'),
       thumbnail: img2,
     },
     { id:   4,
       name: t('mms'),
-      imageUrl: img,
+      imageUrl: mms,
       description: t('mmsd'),
       thumbnail: img2,
     },
     { id:   5,
       name: t('pi'),
-      imageUrl: img,
+      imageUrl: pi,
       description: t('pid'),
       thumbnail: img2,
     },
     { id:   6,
       name: t('ssw'),
-      imageUrl: img,
+      imageUrl: ssw,
       description: t('sswd'),
       thumbnail: img2,
     },
     { id:   7,
       name: t('ms'),
-      imageUrl: img,
+      imageUrl: ms,
       description: t('msd'),
       thumbnail: img2,
     },

@@ -14,6 +14,7 @@ import Worldwide from './components/Worldwide';
 import WhatsAppWidget from './components/Whatsapp';
 import ContactUs from './components/Contactus';
 import Enginemaker from './components/Ticker';
+import Map from './components/Worldwide2'
 
 
 function App() {
@@ -25,8 +26,9 @@ function App() {
             <VisionMission/>
             <Trust/>
             <ExpandingGrid/>
-            {/* <Facilities/>
-            <Worldwide/>
+            <Facilities/>
+            <Map/>
+            {/* <Worldwide/>
             <ContactUs/>
             <WhatsAppWidget phoneNumber="+6592372289" message="Hi, I'm interested in your services" /> */}
         </div>

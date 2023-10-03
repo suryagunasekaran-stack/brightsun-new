@@ -5,13 +5,14 @@
   flex-wrap: wrap;
   flex: 1;
   overflow: hidden; /* or auto, depending on your needs */
+
+
 }
 
   
   .grid-item {
-    width: 70%;
+    width: 100%;
     height: 100%;
-    margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,6 +27,7 @@
     width: calc(100% - 20px);
     margin: 10px;
     height: 37vh;
+    border: 0.6px solid rgb(217, 217, 217);
   }
   
   .grid-item.expanded {
@@ -44,6 +46,7 @@
     align-items: center; /* Horizontally center */
     justify-content: center; /* Vertically center */
     text-align: center; /* Center the text within each element */
+    margin-top: 10px;
     /* ... other styles ... */
 }
   
@@ -53,7 +56,7 @@
   left: 0; /* Set to 0 to cover the entire width */
   width: 100vw; /* Set to 100vw to cover the entire width */
   height: 100vh; /* Set to 100vh to cover the entire height */
-  background-color: black;
+  background-color: #070714;
   padding: 20px;
   color: white;
   z-index: 1000;
