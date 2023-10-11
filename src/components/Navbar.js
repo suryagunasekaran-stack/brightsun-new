@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import { Dropdown, DropdownButton } from 'react-bootstrap';
 import sun from '../images/sun.svg'
 import "../css/Navbar.css"
+import broucherer from "../pdfs/BrightsunBrochure.pdf"
 
 function NavigationBar() {
 
@@ -17,15 +18,13 @@ function NavigationBar() {
         }
     });
 
+    const openPdf = () => {
+        window.open(broucherer, '_blank');
+      }
+
     
     const { t, i18n } = useTranslation();
 
-    const handleClickScroll = (id) => {
-        const element = document.getElementById(id);
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
 
     const [expanded, setExpanded] = React.useState(false);
 
@@ -66,7 +65,7 @@ function NavigationBar() {
                 </Nav>
             </Navbar.Collapse>
             <div className='clickables'>
-            <Button id='brou'  variant="danger" style={{margin:"2px"}} >{t('b')}</Button>
+            <Button id='brou'  variant="danger" style={{margin:"2px"}} onClick={() => openPdf} >{t('b')}</Button>
             <button className='c' id="bbtn">{t('b')}</button> 
 
             <DropdownButton className='ml-auto' id="laa" title={t('laa')} >

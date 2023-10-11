@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import '../css/facilities.css';
 // Importing local images
-import img from "../images/background.jpeg"
+import crane from "../images/Facilities/crane.JPG"
+import forklift from "../images/Facilities/forklift.JPG"
 
 const facilitiesData = [
-  { image: img, description: 'Description for image 1' },
-  { image: img, description: 'Description for image 2' },
-  { image: img, description: 'Description for image 3' },
+  { image: crane, description: 'Crane' },
+  { image: forklift, description: 'Description for image 2' },
 ];
 
 const Facilities = () => {

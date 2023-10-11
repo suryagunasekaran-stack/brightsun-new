@@ -1,8 +1,9 @@
 .contact-container {
     display: flex;
-    background-color: #FFE4E1; /* Misty Rose background for the entire container */
+    background-color:#111921; /* Misty Rose background for the entire container */
     padding: 20px;
     height: 100vh;
+    color: whitesmoke;
   }
   
   .contact-info {

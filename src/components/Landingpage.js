@@ -17,7 +17,7 @@ function LandingPage() {
         
         <div className="video-container">
             
-            <video autoPlay="autoplay" loop="loop" muted className="background-video">
+            <video autoPlay loop muted playsInline className="background-video">
                 <source src={backgroundVideo} type="video/mp4" />
             </video>
 

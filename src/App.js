@@ -27,10 +27,8 @@ function App() {
             <Trust/>
             <ExpandingGrid/>
             <Facilities/>
-            <Map/>
-            {/* <Worldwide/>
             <ContactUs/>
-            <WhatsAppWidget phoneNumber="+6592372289" message="Hi, I'm interested in your services" /> */}
+            <WhatsAppWidget phoneNumber="+6592372289" message="Hi, I'm interested in your services" />
         </div>
     );
 }

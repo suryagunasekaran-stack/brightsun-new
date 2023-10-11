@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import { Flipper, Flipped } from 'react-flip-toolkit';
 import '../css/ExpandingGrid.css';
-import img from "../images/background.jpeg"
 import img2 from "../images/placeholder.jpeg"
 import { useTranslation } from 'react-i18next';
 
@@ -14,6 +13,7 @@ import pi from "../images/pi/pi.JPG"
 import ssw from "../images/ssw/ssw.JPG"
 import eg from "../images/eg/eg.JPG"
 import ms from "../images/ms/ms.JPG"
+import ism from "../images/ism/ism.JPG"
 
 const ExpandingGrid = () => {
   const [selected, setSelected] = useState(null);
@@ -64,7 +64,7 @@ const ExpandingGrid = () => {
     },
     { id:   8,
       name: t('ism'),
-      imageUrl: img,
+      imageUrl: ism,
       description: t('ismd'),
       thumbnail: img2,
     },
@@ -189,6 +189,7 @@ const ExpandingGrid = () => {
 
   return (
     <Flipper  className='mainflip' flipKey={selected}>
+    <div className='titleservices'> <h1> Services Provided </h1> </div>
       <div id="services" className="grid">
       {items.map(item => (
   <div key={item.id} className="grid-item-wrapper">
