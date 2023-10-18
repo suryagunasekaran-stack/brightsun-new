@@ -3,11 +3,13 @@ import '../css/facilities.css';
 // Importing local images
 import crane from "../images/Facilities/crane.JPG"
 import forklift from "../images/Facilities/forklift.JPG"
+import { useTranslation } from 'react-i18next';
 
 const facilitiesData = [
   { image: crane, description: 'Crane' },
-  { image: forklift, description: 'Description for image 2' },
+  { image: forklift, description: 'Forklift' },
 ];
+
 
 const Facilities = () => {
   const [currentIndex, setCurrentIndex] = useState(1);
@@ -20,9 +22,10 @@ const Facilities = () => {
     setCurrentIndex((prevIndex) => (prevIndex === facilitiesData.length - 1 ? 0 : prevIndex + 1));
   };
 
+  const { t } = useTranslation();
   return (
     <div className="facilities-container">
-      <h1 id='titlefac'> Facilities </h1>
+      <h1 id='titlefac'> {t('faci')} </h1>
     <div className="facilities-content">
       <img src={facilitiesData[currentIndex].image} alt="Facility" className="facility-image" />
       <div className="description-box">

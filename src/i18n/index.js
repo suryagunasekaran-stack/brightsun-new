@@ -81,7 +81,15 @@ const resources = {
             "laa": "Language",
             "video": "Watch Video",
 
+            "specialization": "Specializing in <0>marine engineering and ship repairs</0>, we deliver <1>top-notch servicing, maintenance, and parts supply.</1> Count on us for <2>swift and reliable solutions,</2> ensuring your vessels sail smoothly and efficiently. Your ship's <3>optimal performance</3> is our commitment at Brightsun.",
+            "est1998": "Established in 1998, Brightsun Marine provides specialized services in the Ship Repair sector.",
+            "adapting": "By adapting a customer-centric focus, we have established a strong and proven track record in providing quality services with Safe working practice.",
+            "anchorage": "With our Anchorage of Trust, Experience, Knowledge and Commitment, We offer Afloat, Wharf Side, Inner Port, Outer Port & Voyage Repair Services in a more Innovative manner and a Competitive Price in line with the Current Market.",
+            "qot": "A ship earns money only when she's at sea ",
 
+            "servicesprovided": "Services Provided",
+            "faci": "Facilities",
+            "d": "Download",
             // ... other English translations
         }
     },
@@ -164,7 +172,16 @@ const resources = {
             "laa": "日本語",
             "video": "ビデオを見る",
 
-            // ... other Japanese translations
+            "specialization": "私たちは<0>船舶工学および船舶修理</0>を専門としており、<1>最高のサービス、メンテナンス、部品供給</1>を提供します。私たちに<2>迅速かつ信頼性のある解決策</2>を期待してください。これにより、あなたの船がスムーズで効率的に航行します。あなたの船の<3>最適なパフォーマンス</3>は、Brightsunでの私たちのコミットメントです。",
+            "est1998": "1998年に設立されたBrightsun Marineは、船舶修理分野での専門サービスを提供しています。",
+
+            "adapting": "顧客中心のアプローチを採用することで、安全な作業慣行での質の高いサービスを提供するための強力で実績のあるトラックレコードを築いています。",
+            "anchorage": "信頼、経験、知識、そしてコミットメントのアンカーを持つ私たちは、現在の市場に合わせたより革新的な方法と競争力のある価格で、Afloat、Wharf Side、Inner Port、Outer PortおよびVoyage Repair Servicesを提供します。",
+            "qot": "船は海にいるときだけお金を稼ぐ。",
+
+            "servicesprovided": "提供されるサービス",
+            "faci": "施設",
+            "d":"ダウンロード可能",
         }
     },
     ta: {
@@ -247,7 +264,16 @@ const resources = {
             "laa": "தமிழ்",
 
             "video": "காணொளி பார்க்கவும்",
-            // ... other Tamil translations
+
+            "specialization": "<0>கடல் பொறியியல் மற்றும் கப்பல் சேமிப்பு</0> செயல்முறையில் நாங்கள் சிறப்புபடுத்துகின்றோம், நாங்கள் <1>முதலிடத்தியான சேவை, பராமரிப்பு, மற்றும் பாகங்கள் வழங்கல்</1> வழங்குகின்றோம். உங்கள் கப்பல்கள் தளராமல் மற்றும் துணையாக ஓட உத்தமமாக உள்ளது. உங்கள் கப்பலின் <3>ஆதரவு செயல்முறை</3> எங்கள் அங்கிகாரம் உள்ளது Brightsun.",
+            "est1998": "1998ல் நிறுவப்பட்ட Brightsun Marine, கப்பல் சேமிப்பு பகுதியில் சிறப்பு சேவைகளை வழங்குகின்றது.",
+            "adapting": "வாடிக்கையாளர்-மையமாக கவனத்தை செலுத்துவதன் மூலம், நாம் பாதுகாப்பான பணியாட்டு நடைமுறையுடன் தரமான சேவைகளை வழங்க ஒரு பலமான மற்றும் சோதனை செய்யப்பட்ட படையணியை உருவாக்கியுள்ளோம்.",
+            "anchorage": "நமது நம்பிக்கை, அனுபவம், அறிவு மற்றும் அங்கீகாரத்தின் நாவில், நாம் Afloat, Wharf Side, Inner Port, Outer Port & Voyage Repair Servicesஐ இப்போது சந்தையுடன் ஒத்திசைவாக மிகவும் புதுமைப்படுத்திய முறையில் மற்றும் ஒழிய விலையில் வழங்குகின்றோம்.",
+            "qot": "ஒரு கப்பல் கடலில் உள்ளது மட்டுமே பணம் சம்பாதிக்கின்றது.",
+
+            "servicesprovided": "வழங்கப்படும் சேவைகள்",
+            "faci": "வசதிகள்",
+            "d":"பதிவிறக்க முடியும்",
         }
     },
     ms: {
@@ -329,7 +355,15 @@ const resources = {
             "laa": "melayu",
 
             "video": "Tonton Video",
-            // ... other Malay translations
+            "specialization": "Berpakar dalam <0>kejuruteraan marin dan pembaikan kapal</0>, kami menyampaikan <1>perkhidmatan, penyelenggaraan, dan bekalan bahagian yang berkualiti tinggi.</1> Berharap kepada kami untuk <2>penyelesaian yang cepat dan boleh dipercayai,</2> memastikan kapal anda berlayar dengan lancar dan cekap. Prestasi optimum kapal anda adalah komitmen kami di Brightsun.",
+            "est1998": "Ditubuhkan pada tahun 1998, Brightsun Marine menyediakan perkhidmatan khusus dalam sektor Pembaikan Kapal.",
+            "adapting": "Dengan mengadaptasi tumpuan yang berpusat pada pelanggan, kami telah menubuhkan rekod trek yang kuat dan terbukti dalam menyediakan perkhidmatan berkualiti dengan amalan kerja yang selamat.",
+            "anchorage": "Dengan Anchorage kami berdasarkan Kepercayaan, Pengalaman, Pengetahuan dan Komitmen, Kami menawarkan Perkhidmatan Pembaikan Afloat, Wharf Side, Inner Port, Outer Port & Voyage dalam cara yang lebih Inovatif dan Harga yang Bersaing mengikut Pasaran Semasa.",
+            "qot":"Kapal hanya mendapat wang apabila ia berada di laut.",
+
+            "servicesprovided": "Perkhidmatan yang Disediakan",
+            "faci": "Kemudahan",
+            "d":"Boleh dimuat turun",
         }
     },
     zh: {
@@ -411,6 +445,16 @@ const resources = {
             "laa": "中国人",
 
             "video": "观看视频",
+            "specialization": "我们专注于<0>船舶工程和船舶修理</0>，我们提供<1>一流的服务，维护和零件供应。</1> 依赖我们提供<2>迅速且可靠的解决方案，</2>确保您的船只平稳高效地航行。您的船只的<3>最佳性能</3>是我们在Brightsun的承诺。",
+            "est1998": "成立于1998年的Brightsun Marine在船舶修理领域提供专业服务。",
+            "adapting": "通过采纳以客户为中心的关注点，我们已经建立了一个强大且经过验证的记录，在安全的工作实践中提供高质量服务。",
+            "anchorage": "凭借我们的信任、经验、知识和承诺的锚点，我们以更创新的方式以及与当前市场一致的竞争价格提供Afloat、Wharf Side、Inner Port、Outer Port和Voyage Repair Services。",
+            "qot": "船只在海上时才能挣钱。",
+
+            "servicesprovided": "提供的服务",
+            "faci": "设施",
+            "d": "可下载",
+
             // ... other Chinese translations
         }
     }
