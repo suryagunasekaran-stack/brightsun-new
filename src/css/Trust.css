@@ -1,7 +1,4 @@
 .trustlength {
-    height: 100vh;
-    position: relative;
- 
 }
 
 /* .containertrust {
@@ -15,17 +12,14 @@
   } */
 
 .picturetrust {
-    position: absolute;
     width: 70vw;
     top: 6vh;
     right: 0;
 }
 
 .contenttrust {
-    position: absolute;
     display: flex;
     flex-direction: column;
-    height: 100vh;
     color: #111921;
     text-align: center;
 
