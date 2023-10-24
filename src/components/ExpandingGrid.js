@@ -189,7 +189,7 @@ const ExpandingGrid = () => {
 
   return (
     <Flipper  className='mainflip' flipKey={selected}>
-    <div className='titleservices'> <h1> Services Provided </h1> </div>
+    <div className='titleservices'> <h1> {t('servicesprovided')} </h1> </div>
       <div id="services" className="grid">
       {items.map(item => (
   <div key={item.id} className="grid-item-wrapper">

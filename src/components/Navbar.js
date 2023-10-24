@@ -1,11 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, Nav, Button } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import { Dropdown, DropdownButton } from 'react-bootstrap';
 import sun from '../images/sun.svg'
 import "../css/Navbar.css"
 import broucherer from "../pdfs/BrightsunBrochure.pdf"
+import brouchererj from "../pdfs/BrightsunBrochureJapanese.pdf"
+import ourprofilee from "../pdfs/Brightsun-Profile-2.pdf"
 
 function NavigationBar() {
 
@@ -22,6 +24,13 @@ function NavigationBar() {
         window.open(broucherer, '_blank');
       }
 
+      const openPdfj = () => {
+        window.open(brouchererj, '_blank');
+      }
+    
+      const openprofile = () => {
+        window.open(ourprofilee, '_blank');
+      }
     
     const { t, i18n } = useTranslation();
 
@@ -65,8 +74,12 @@ function NavigationBar() {
                 </Nav>
             </Navbar.Collapse>
             <div className='clickables'>
-            <Button id='brou'  variant="danger" style={{margin:"2px"}} onClick={() => openPdf} >{t('b')}</Button>
-            <button className='c' id="bbtn">{t('b')}</button> 
+
+            <DropdownButton className='ml-auto' id="laa" title={t('d')} >
+                <Dropdown.Item onClick={openPdf}> Brouchere </Dropdown.Item>
+                <Dropdown.Item onClick={openPdfj} > Brouchere (Japanese) </Dropdown.Item>
+                <Dropdown.Item onClick={openprofile} > Our Profile </Dropdown.Item>
+            </DropdownButton>
 
             <DropdownButton className='ml-auto' id="laa" title={t('laa')} >
                 <Dropdown.Item onClick={() => {changeLanguage('en')}}>English</Dropdown.Item>

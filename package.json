@@ -2,7 +2,7 @@
   "name": "bwebsite-2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://suryagunasekaran-stack.github.io/brightsun2",
+  "homepage": "https://brightsun.com.sg",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

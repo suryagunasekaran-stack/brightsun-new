@@ -80,9 +80,6 @@
         font-size: 1em;
     }
 
-    .c {
-        display: none;
-    }
 
     #brou {
         display:flex;
@@ -102,9 +99,6 @@
     .nav-link {
         font-size: 1.3em;
 
-    }
-    .c {
-        display: none;
     }
 
     #brou {
@@ -150,9 +144,6 @@
     .sunlogo {
         width:25vw;
         height: 10vh;
-    }
-    .c {
-        display: none;
     }
 
     #brou {

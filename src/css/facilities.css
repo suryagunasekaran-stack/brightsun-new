@@ -10,11 +10,17 @@
 }
 
 #titlefac {
+  color: #283260;
+  font-size: 2.3em;
+  letter-spacing: 0.4em;
+  font-family: TitlingGothicFB Ext;
+  font-weight: 1000;
+  text-transform: uppercase;
+  text-align: center;
   margin-top: 21px;
-  text-align: left;
-  font-size: 1.3em;
-  color: #070714 ;
+  opacity: 1;
 }
+
 
 .facilities-content {
   display: flex;

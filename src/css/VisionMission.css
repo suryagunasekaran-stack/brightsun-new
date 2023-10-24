@@ -1,7 +1,7 @@
 .missionlength {
     background-color: white; /* Set the background color to white */
     position: relative;
-    height: 90vh; /* Set the height to 100% of the viewport height */
+    height: 100vh;
   }
 
   .half-filled-rectangle {
@@ -47,12 +47,12 @@
 
   .containermission {
     display: flex;
+    width: 70%;
     flex-direction: column;
-    margin: 42px;
+    margin: 21px;
     position: relative;
-    left: 83px;
-    top: 42px;
-    width: 300px;
+    left: 56px;
+    top: 62px;
     word-wrap: break-word;
   }
   
@@ -64,6 +64,22 @@
 
 @media (min-width: 600px) {
     /* Tablet styles */
+
+    .missionlength {
+      height: 100vh;
+    }
+
+    .imagebright {
+      position: relative;
+      width: 70vw;
+      top: 6vh;
+    }
+  
+    .containermission {
+      position: relative;
+      left: 83px;
+      top: 42px;
+    }
    
 }
 
