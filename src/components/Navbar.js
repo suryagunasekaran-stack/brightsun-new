@@ -87,6 +87,8 @@ function NavigationBar() {
                 <Dropdown.Item onClick={() => {changeLanguage('ta')}}>தமிழ்</Dropdown.Item>
                 <Dropdown.Item onClick={() => {changeLanguage('ms')}}>melayu</Dropdown.Item>
                 <Dropdown.Item onClick={() => {changeLanguage('zh')}}>中国人</Dropdown.Item>
+                <Dropdown.Item onClick={() => {changeLanguage('hi')}}>हिंदी</Dropdown.Item>
+                <Dropdown.Item onClick={() => {changeLanguage('kr')}}>한국인</Dropdown.Item>
             </DropdownButton>
 
         </div>
