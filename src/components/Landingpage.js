@@ -28,12 +28,9 @@ function LandingPage() {
                     <button className='button-66' id='servicebtn' onClick={() => handleClickScroll('services')} href="#services">{t('Our Services')} </button>
                     <a href="https://www.youtube.com/embed/vMrhQI7Tr78?rel=0" target="_BLANK" rel="noreferrer"><button className='button-66' id='videobtn'> {t('video')}</button></a>
                 </p>
-
-                <div className='engine'>
-                    <Enginemaker/>
-                </div>
             </div>
 
+            <Enginemaker/>
 
         
             <div className="biz" >
