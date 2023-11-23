@@ -85,10 +85,48 @@
 
 @media (min-width: 900px) {
     /* Small Laptops */
+    .imagebright {
+      position: relative;
+      width: 50vw;
+      top: 6vh;
+    }
+
+    .containermission {
+      position: relative;
+      left: 14vw;
+      top: 37px;
+    }
 
 }
 
 @media (min-width: 1200px) {
     /* Desktops */
+    .imagebright {
+      position: relative;
+      width: 40vw;
+      top: 6vh;
+    }
+
+    .containermission {
+      position: relative;
+      left: 16vw;
+      top: 37px;
+    }
    
+}
+
+@media (min-width: 2560px) {
+  /* Desktops */
+  .imagebright {
+    position: relative;
+    width: 30vw;
+    top: 6vh;
+  }
+
+  .containermission {
+    position: relative;
+    left: 35vw;
+    top: -30vh;
+  }
+ 
 }

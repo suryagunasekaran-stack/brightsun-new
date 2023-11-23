@@ -5,11 +5,12 @@ import { useTranslation } from 'react-i18next';
 import { Dropdown, DropdownButton } from 'react-bootstrap';
 import sun from '../images/sun.svg'
 import "../css/Navbar.css"
-import broucherer from "../pdfs/BrightsunBrochure.pdf"
-import brouchererj from "../pdfs/BrightsunBrochureJapanese.pdf"
-import ourprofilee from "../pdfs/Brightsun-Profile-2.pdf"
 
 function NavigationBar() {
+
+    const shareableLink3 = 'https://drive.google.com/file/d/13tEVZKcMgnnB1v-RUvggmu9Vrez6ek88/view?usp=sharing';
+    const shareableLink2 = 'https://drive.google.com/file/d/1BJYp3TIbFX3uA5ePfbOCRWISgtoBudfg/view?usp=sharing';
+    const shareableLink = 'https://drive.google.com/file/d/1oNDbYIc_1UEx_sGBOg5fgiUVZVwHmyr2/view?usp=sharing';
 
     window.addEventListener('scroll', function() {
         const navbar = document.getElementById('navmain');
@@ -21,15 +22,19 @@ function NavigationBar() {
     });
 
     const openPdf = () => {
-        window.open(broucherer, '_blank');
+        
+        window.open(shareableLink2, '_blank');
       }
 
       const openPdfj = () => {
-        window.open(brouchererj, '_blank');
+        
+        window.open(shareableLink3, '_blank');
+
       }
     
       const openprofile = () => {
-        window.open(ourprofilee, '_blank');
+        
+        window.open(shareableLink, '_blank');
       }
     
     const { t, i18n } = useTranslation();
