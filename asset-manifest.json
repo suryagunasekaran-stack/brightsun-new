@@ -1,15 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.0448df5f.css",
-    "main.js": "/static/js/main.42057510.js",
+    "main.css": "/static/css/main.fa7dd112.css",
+    "main.js": "/static/js/main.a485381c.js",
     "static/js/787.5c4c2ce9.chunk.js": "/static/js/787.5c4c2ce9.chunk.js",
     "static/media/219.mp4": "/static/media/219.1e16ff1ca5c9f765e158.mp4",
-    "static/media/Brightsun-Profile-2.pdf": "/static/media/Brightsun-Profile-2.8fa08a3db71afbab5dd0.pdf",
     "static/media/rlc.png": "/static/media/rlc.ce2eae3cd868e3c6a244.png",
     "static/media/plswork.svg": "/static/media/plswork.d98d83c0d5e39dfc20cdf6b6503e74ce.svg",
-    "static/media/BrightsunBrochure.pdf": "/static/media/BrightsunBrochure.60f4c6e38b9c59cd4c1f.pdf",
     "static/media/truss.svg": "/static/media/truss.428da854498aa0762dbd17d577b2a15a.svg",
-    "static/media/BrightsunBrochureJapanese.pdf": "/static/media/BrightsunBrochureJapanese.2ebf5988f75d7e04e791.pdf",
     "static/media/ssw.JPG": "/static/media/ssw.a8ff7f8001fe8337964d.JPG",
     "static/media/pi.JPG": "/static/media/pi.2cb38a1bbb07fdf6ed8d.JPG",
     "static/media/mea.jpg": "/static/media/mea.fa22fe36d05d905c191b.jpg",
@@ -293,12 +290,12 @@
     "static/media/pl.svg": "/static/media/pl.cd835d05865e496ff6b8.svg",
     "static/media/de.svg": "/static/media/de.6435bf24d148ca7248e7.svg",
     "static/media/bd.svg": "/static/media/bd.0ad8c443ef4d47ea0497.svg",
-    "main.0448df5f.css.map": "/static/css/main.0448df5f.css.map",
-    "main.42057510.js.map": "/static/js/main.42057510.js.map",
+    "main.fa7dd112.css.map": "/static/css/main.fa7dd112.css.map",
+    "main.a485381c.js.map": "/static/js/main.a485381c.js.map",
     "787.5c4c2ce9.chunk.js.map": "/static/js/787.5c4c2ce9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0448df5f.css",
-    "static/js/main.42057510.js"
+    "static/css/main.fa7dd112.css",
+    "static/js/main.a485381c.js"
   ]
 }
