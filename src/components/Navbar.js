@@ -9,8 +9,8 @@ import "../css/Navbar.css"
 function NavigationBar() {
 
     const shareableLink3 = 'https://drive.google.com/file/d/13tEVZKcMgnnB1v-RUvggmu9Vrez6ek88/view?usp=sharing';
-    const shareableLink2 = 'https://drive.google.com/file/d/1Yk1zrl-Wl6bKu06aWRaKG0Wta4_ptFYN/view?usp=sharing';
-    const shareableLink = 'https://drive.google.com/file/d/1AtzjFv-DMj46gtySk7fI6YXIMVsIcmXH/view?usp=share_link';
+    const shareableLink2 = 'https://drive.google.com/file/d/1To55fb1admVOalXoOLIGTymtNkChvkvv/view?usp=share_link';
+    const shareableLink = 'https://drive.google.com/file/d/1ZqR4h7EJywn0nKAwovrfOATcgts4dgcE/view?usp=share_link';
 
     window.addEventListener('scroll', function() {
         const navbar = document.getElementById('navmain');
