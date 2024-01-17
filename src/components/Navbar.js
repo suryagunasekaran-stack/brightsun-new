@@ -8,9 +8,10 @@ import "../css/Navbar.css"
 
 function NavigationBar() {
 
-    const shareableLink3 = 'https://drive.google.com/file/d/13tEVZKcMgnnB1v-RUvggmu9Vrez6ek88/view?usp=sharing';
-    const shareableLink2 = 'https://drive.google.com/file/d/1To55fb1admVOalXoOLIGTymtNkChvkvv/view?usp=share_link';
+    const shareableLink3 = 'https://drive.google.com/file/d/1HIGMIOGfqWFnxK1hYFgNTDsA9CW3gu5y/view?usp=sharing';
+    const shareableLink2 = 'https://drive.google.com/file/d/1lvLB8cKll-MrAWLah8aAAxOFbsGggqGM/view?usp=sharing';
     const shareableLink = 'https://drive.google.com/file/d/1ZqR4h7EJywn0nKAwovrfOATcgts4dgcE/view?usp=share_link';
+    const makercert = 'https://drive.google.com/file/d/1t9YljCfiAbL4Owgw8hkP-7fqDJND6U-q/view?usp=sharing';
 
     window.addEventListener('scroll', function() {
         const navbar = document.getElementById('navmain');
@@ -35,6 +36,11 @@ function NavigationBar() {
       const openprofile = () => {
         
         window.open(shareableLink, '_blank');
+      }
+
+      const openmakers = () => {
+        
+        window.open(makercert, '_blank');
       }
     
     const { t, i18n } = useTranslation();
@@ -84,6 +90,7 @@ function NavigationBar() {
                 <Dropdown.Item onClick={openPdf}> Brouchere </Dropdown.Item>
                 <Dropdown.Item onClick={openPdfj} > Brouchere (Japanese) </Dropdown.Item>
                 <Dropdown.Item onClick={openprofile} > Our Profile </Dropdown.Item>
+                <Dropdown.Item onClick={openmakers} > Maker's Authorization Certificate </Dropdown.Item>
             </DropdownButton>
 
             <DropdownButton className='ml-auto' id="laa" title={t('laa')} >
