@@ -15,15 +15,16 @@ import WhatsAppWidget from './components/Whatsapp';
 import ContactUs from './components/Contactus';
 import Enginemaker from './components/Ticker';
 import Map from './components/Worldwide2'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const Redirect = ({ to }) => {
-    React.useEffect(() => {
-      window.location.href = to;
+    useEffect(() => {
+        window.location.href = to;
     }, [to]);
-  
+
     return null;
-  };
+};
 
 function App() {
     return (
